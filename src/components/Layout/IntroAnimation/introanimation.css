@@ -1,0 +1,191 @@
+.intro-animation {
+  width: 99.1vw;
+  height: 100vh;
+  background-color: #364958;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.animation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .intro-text {
+    position: relative;
+    left: 35px;
+  }
+
+  .arrows {
+    left: -170px;
+  }
+}
+
+.my-name {
+  color: #91c025;
+}
+
+.intro-heading {
+  margin: 0;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.intro-description {
+  margin-top: 10px;
+}
+
+.block {
+  height: 200px;
+  display: block;
+  width: 200px;
+}
+
+.arrows {
+  display: block;
+  z-index: 1;
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  position: relative;
+  top: 170px;
+  right: 220px;
+  padding: 5px;
+}
+
+.arrows:hover {
+  background-color: #26343f;
+}
+
+#more-arrows {
+  width: 75px;
+  height: 65px;
+}
+
+#more-arrows:hover {
+  padding: 1px;
+}
+
+.arrow-top {
+  opacity: 0.5;
+}
+
+.arrow-top:hover {
+  opacity: 1;
+}
+
+.arrow-middle {
+  opacity: 0.75;
+}
+
+.arrow-middle:hover {
+  opacity: 1;
+}
+
+.arrow-bottom:hover {
+  position: absolute;
+  bottom: 100px;
+}
+
+polygon {
+  fill: #95c623;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.styles_typicalWrapper__1_Uvh::after {
+  display: none;
+}
+
+.intro-text {
+  position: relative;
+  right: 70%;
+}
+
+.arrows {
+  position: relative;
+  right: 940px;
+}
+
+.intro-heading,
+.intro-description {
+  width: 390px;
+}
+
+.first-animation {
+  position: relative;
+  left: 100px;
+}
+
+.second-animation {
+  position: relative;
+  left: 200px;
+}
+
+@media screen and (max-width: 800px) {
+  .first-animation {
+    position: relative;
+    left: 180px;
+  }
+
+  .second-animation {
+    display: none;
+  }
+
+  .arrows {
+    position: absolute;
+    right: -200px;
+    top: 480px;
+  }
+
+  .intro-heading,
+  .intro-description {
+    width: 360px;
+    position: relative;
+    right: 90px;
+  }
+
+  .animation-container,
+  .intro-animation {
+    position: relative;
+    width: 100%;
+  }
+}
+
+.mihailo-maksa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 337px;
+  position: absolute;
+  top: 41.5%;
+  z-index: 1;
+}
+
+.hi-mihailo-maksa {
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+.full-stack {
+  font-size: 1.35em;
+  margin: 20px 0 50px;
+}
+
+.expand-more {
+  width: inherit;
+  height: inherit;
+  border-radius: 5px;
+  color: #94c523;
+  padding: 0;
+  z-index: 1;
+}
+
+.expand-more:hover {
+  /* background-color: #2f3e4e; */
+  color: rgb(118, 167, 5);
+}

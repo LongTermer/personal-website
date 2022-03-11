@@ -1,0 +1,85 @@
+.interests {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.skills-heading {
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 110px;
+  font-size: 2.5em;
+}
+
+.skills-overview {
+  width: 80vw;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+  align-items: stretch;
+  margin-top: 27.5px;
+  margin-bottom: 45px;
+}
+
+.skill-animation-circle {
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 75px;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#00ffb8),
+    to(#13ce9a)
+  );
+  background-image: linear-gradient(90deg, #00ffb8, #13ce9a);
+  border-radius: 10px;
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}
+
+.skill-animation-circle:hover {
+  transform: scale(1.075);
+  font-weight: bold;
+}
+
+.interests {
+  margin-bottom: 220px;
+}
+
+.interests-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5%;
+  width: 70%;
+}
+
+@media screen and (max-width: 1000px) {
+  .interests-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .interests-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.interest-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.interest-desc {
+  font-size: 1.1em;
+}

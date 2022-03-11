@@ -1,0 +1,50 @@
+.footer {
+  background-color: #0d1014;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.copyright {
+  color: #f2f2f2;
+  text-align: center;
+  margin: 0;
+  font-size: 0.9rem;
+  position: relative;
+}
+
+.github-link,
+.email-link {
+  color: #f2f2f2;
+  text-align: center;
+  margin: 0;
+  margin-right: 35px;
+  font-size: 1rem;
+  display: block;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.github-link:hover,
+.email-link:hover {
+  background-color: #212429;
+  transform: scale(1.32);
+}
+
+.author {
+  color: #f7931a;
+}
+
+.author:hover {
+  font-weight: bold;
+}

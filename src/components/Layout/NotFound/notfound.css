@@ -1,0 +1,48 @@
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 170px 0 150px;
+}
+.not-found .img-404 {
+  width: 500px;
+  height: 250px;
+}
+@media screen and (max-width: 576px) {
+  .not-found .img-404 {
+    width: 275px;
+    height: 125px;
+  }
+}
+.not-found .content-404 {
+  margin-top: 10px;
+}
+.not-found .content-404 .title-404 {
+  font-size: 2.75em;
+  margin-bottom: 0;
+}
+.not-found .content-404 .desc-404 {
+  text-align: center;
+  font-size: 1.15rem;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.not-found .content-404 .btn-404 {
+  color: #fff !important;
+  margin-top: 10px;
+}
+.x-large {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 900px) {
+  .img-not-found {
+    position: relative;
+    width: 80vw;
+  }
+  .not-found-title {
+    font-size: 2.2em;
+  }
+}

@@ -1,0 +1,123 @@
+.contact-page {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 120px;
+  background-color: #364958;
+  width: 99.1vw;
+}
+
+.title {
+  margin: 65px 0 25px;
+  font-size: 40px;
+  color: white;
+  font-weight: bolder;
+}
+
+.description {
+  line-height: 1.65rem;
+  font-size: 18px;
+}
+
+textarea {
+  resize: none;
+  border-top: 1px solid gray;
+  font-family: inherit;
+  font-size: inherit;
+  font-size: 16px;
+  background-color: #26343f;
+  border: none;
+  width: 70%;
+  color: white !important;
+}
+
+textarea::placeholder {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 16px;
+  color: #6c6d6f;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.contact-link {
+  text-decoration: underline;
+}
+
+contact-link:hover {
+  font-weight: bolder;
+}
+
+.message-sent {
+  text-align: center;
+  padding: 10px;
+  background-color: #79c879;
+  color: #fff;
+  margin-bottom: 25px;
+  width: 350px;
+  height: 45px;
+  font-size: 18px;
+  display: none;
+}
+
+.your-message-is-empty {
+  text-align: center;
+  padding: 10px;
+  background-color: #dc3545;
+  color: #fff;
+  margin-bottom: 25px;
+  width: 350px;
+  height: 45px;
+  font-size: 18px;
+  display: none;
+}
+
+.contact-border-line {
+  width: 3vw;
+  height: 5px;
+  padding: 0;
+  margin: 0;
+  background-color: #eaeaec;
+  margin-bottom: 50px;
+}
+
+.message-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .contact-border-line,
+  .border-line,
+  .resume-border-line {
+    width: 14%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  form {
+    margin-top: 0px;
+  }
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 47.3vw solid transparent;
+  border-right: 47.3vw solid transparent;
+  border-top: 100px solid white;
+}
+
+@media screen and (max-width: 800px) {
+  .contact-page,
+  .triangle {
+    position: relative;
+    width: 100%;
+  }
+}

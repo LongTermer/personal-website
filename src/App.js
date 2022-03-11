@@ -1,25 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Suspense } from 'react'
+import { HashRouter, Route, Routes } from 'react-router-dom'
+import './App.css'
+import ErrorBoundary from './components/Layout/ErrorBoundary/ErrorBoundary'
+import Spinner from './components/Layout/Spinner/Spinner'
+import About from './components/About/About'
+import Footer from './components/Footer/Footer'
+import IntroAnimation from './components/Layout/IntroAnimation/IntroAnimation'
+import Navbar from './components/Navbar/Navbar'
+import Projects from './components/Projects/Projects'
+import Interests from './components/Interests/Interests'
+import NotFound from './components/Layout/NotFound/NotFound'
 
-function App() {
+const HomePage = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <IntroAnimation />
+      <div className="mid-container">
+        <About />
+        <Projects />
+        <Interests />
+      </div>
+    </>
+  )
 }
 
-export default App;
+const App = () => {
+  return (
+    <HashRouter>
+      <div className="main-container">
+        <ErrorBoundary>
+          <Suspense fallback={<Spinner />} />
+          <div className="App">
+            <Navbar />
+            <Routes>
+              <Route exact path="/" element={<HomePage />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+            <Footer />
+          </div>
+        </ErrorBoundary>
+      </div>
+    </HashRouter>
+  )
+}
+
+export default App

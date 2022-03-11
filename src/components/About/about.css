@@ -1,0 +1,38 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.about-heading {
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 110px;
+  font-size: 2.5em;
+}
+
+.border-line {
+  width: 3vw;
+  height: 5px;
+  padding: 0;
+  margin: 0;
+  background-color: #2e2e33;
+  margin-bottom: 40px;
+}
+
+.about-me {
+  text-align: center;
+  width: 40%;
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 1.175em;
+}
+
+@media screen and (max-width: 800px) {
+  .about-me {
+    width: 60%;
+  }
+}
