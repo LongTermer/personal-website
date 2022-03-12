@@ -19,11 +19,6 @@ const Navbar = () => (
       </div>
       <ul className="nav-list">
         <li className="nav-item">
-          <Link to="/" className="nav-link" title="Home">
-            Home
-          </Link>
-        </li>
-        <li className="nav-item">
           <a
             href="mailto:mihajlomaksa9@gmail.com"
             className="nav-link"

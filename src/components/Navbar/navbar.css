@@ -73,3 +73,17 @@
   position: relative !important;
   width: 100% !important;
 }
+
+@media screen and (max-width: 350px) {
+  .logo {
+    margin-left: 22.5px !important;
+  }
+
+  .nav-list {
+    margin-left: 10px;
+  }
+
+  .navbar {
+    margin-right: -5px;
+  }
+}

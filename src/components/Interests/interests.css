@@ -70,6 +70,9 @@
 }
 
 @media screen and (max-width: 800px) {
+  .interests {
+    margin-bottom: 340px;
+  }
   .interests-container {
     grid-template-columns: 1fr;
   }
