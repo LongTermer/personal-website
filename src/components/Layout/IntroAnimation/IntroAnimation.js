@@ -31,14 +31,14 @@ const IntroAnimation = () => (
         </h1>
         <p className="full-stack">A Web3 Frontend Developer</p>
         <CustomButton type="button">
-          <Link
-            to="/Resume.pdf"
+          <a
+            href="/Resume.pdf"
             target="_blank"
             rel="noreferrer"
             className="btn-link"
           >
             Resume
-          </Link>
+          </a>
         </CustomButton>
       </div>
 

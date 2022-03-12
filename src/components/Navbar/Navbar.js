@@ -33,15 +33,15 @@ const Navbar = () => (
           </a>
         </li>
         <li className="nav-item">
-          <Link
+          <a
             target="_blank"
             rel="noreferrer"
-            to="/Resume.pdf"
+            href="/Resume.pdf"
             className="nav-link"
             title="Portfolio"
           >
             Resume
-          </Link>
+          </a>
         </li>
       </ul>
     </nav>
