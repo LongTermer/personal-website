@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react'
-import { HashRouter, Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import ErrorBoundary from './components/Layout/ErrorBoundary/ErrorBoundary'
 import Spinner from './components/Layout/Spinner/Spinner'
@@ -26,21 +26,19 @@ const HomePage = () => {
 
 const App = () => {
   return (
-    <HashRouter>
-      <div className="main-container">
-        <ErrorBoundary>
-          <Suspense fallback={<Spinner />} />
-          <div className="App">
-            <Navbar />
-            <Routes>
-              <Route exact path="/" element={<HomePage />} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-            <Footer />
-          </div>
-        </ErrorBoundary>
-      </div>
-    </HashRouter>
+    <div className="main-container">
+      <ErrorBoundary>
+        <Suspense fallback={<Spinner />} />
+        <div className="App">
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+          <Footer />
+        </div>
+      </ErrorBoundary>
+    </div>
   )
 }
 
