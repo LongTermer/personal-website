@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './interests.css'
 import web3 from '../../assets/web3.png'
 import investing from '../../assets/investing.png'
@@ -8,7 +8,24 @@ import CustomButton from '../Layout/CustomButton/CustomButton'
 import { useMediaQuery } from 'react-responsive'
 
 const Interests = () => {
+  const [altLinks, setAltLinks] = useState([
+    'https://mihailomaksa.com',
+    'https://mihailomaksa.eth.link',
+    'https://mihailomaksa.eth.limo',
+  ])
   const isMobile = useMediaQuery({ query: '(max-width: 800px)' })
+
+  useEffect(() => {
+    const main = () => {
+      const filteredAltLinks = altLinks.filter(
+        (link) => link !== window.location.origin,
+      )
+      setAltLinks(filteredAltLinks)
+    }
+    main()
+  }, [])
+
+  console.log(altLinks)
 
   const Interest = ({ img, interestName, interestDesc, radius }) => (
     <div className="interest">
@@ -101,6 +118,26 @@ const Interests = () => {
           My Resume
         </a>
       </CustomButton>
+
+      <div className="alternative-links">
+        <h2 className="alternative-links-heading bold">
+          Alternative Website Links:
+        </h2>
+        <div className="alternative-links-container">
+          {altLinks.map((link) => (
+            <span key={link}>
+              <a
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bold project-card-link"
+              >
+                {link.split('://')[1]}
+              </a>
+            </span>
+          ))}
+        </div>
+      </div>
     </div>
   )
 }

@@ -19,11 +19,7 @@ const Navbar = () => (
       </div>
       <ul className="nav-list">
         <li className="nav-item">
-          <a
-            href="mailto:mihajlomaksa9@gmail.com"
-            className="nav-link"
-            title="Contact"
-          >
+          <a href="mailto:mihajlomaksa9@gmail.com" className="nav-link">
             Contact
           </a>
         </li>
@@ -33,7 +29,6 @@ const Navbar = () => (
             rel="noopener noreferrer"
             href="https://github.com/mihailo-maksa"
             className="nav-link"
-            title="Github"
           >
             Github
           </a>
@@ -44,7 +39,6 @@ const Navbar = () => (
             rel="noopener noreferrer"
             href="/Resume.pdf"
             className="nav-link"
-            title="Resume"
           >
             Resume
           </a>
