@@ -17,7 +17,9 @@ const Projects = () => (
         title={'Personal Projects'}
         info={
           <span>
-            <strong>I started building my first projects back in 2018</strong>{' '}
+            <strong>
+              I started building my first web3 projects back in 2018
+            </strong>{' '}
             and haven't stopped ever since.
           </span>
         }
@@ -28,7 +30,7 @@ const Projects = () => (
             <a
               href="https://github.com/mihailo-maksa"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="bold project-card-link"
             >
               Github.
@@ -38,7 +40,7 @@ const Projects = () => (
       />
       <ProjectCard
         img={freelanceProject}
-        title={'Freelance Frontend Web Developer'}
+        title={'Freelance Web Developer'}
         info={
           <span>
             Back when I started freelancing, I was mostly building websites for
@@ -76,19 +78,21 @@ const Projects = () => (
             <a
               href="https://long-term.finance"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="bold project-card-link"
             >
               LongTerm Finance
             </a>{' '}
             is <strong>a crypto index & lending protocol</strong> built on
-            Polygon.
+            Polygon PoS chain.
           </span>
         }
         info2={
           <span>
             <strong>I custom-built the entire frontend of the dApp</strong> and
-            made significant contributions to its mainnet launch.
+            made{' '}
+            <strong>significant contributions to its smart contracts</strong> as
+            well.
           </span>
         }
       />

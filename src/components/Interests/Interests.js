@@ -4,8 +4,12 @@ import web3 from '../../assets/web3.png'
 import investing from '../../assets/investing.png'
 import renewable from '../../assets/renewable.jpg'
 import gym from '../../assets/gym.png'
+import CustomButton from '../Layout/CustomButton/CustomButton'
+import { useMediaQuery } from 'react-responsive'
 
 const Interests = () => {
+  const isMobile = useMediaQuery({ query: '(max-width: 800px)' })
+
   const Interest = ({ img, interestName, interestDesc, radius }) => (
     <div className="interest">
       <img
@@ -36,7 +40,7 @@ const Interests = () => {
               I'm constantly learning and researching about new innovations from
               the web3 space. My favorite areas of research include{' '}
               <strong>decentralized finance (DeFi)</strong> and{' '}
-              <strong>layer 2 scaling.</strong>
+              <strong>Ethereum layer 2 scaling solutions.</strong>
             </span>
           }
         />
@@ -49,7 +53,7 @@ const Interests = () => {
               I strongly believe that compound interest is the eighth world
               wonder.{' '}
               <strong>
-                I bought my first ether during the 2018 bear market
+                I bought my first Ether during the 2018 bear market
               </strong>{' '}
               and haven't stopped finding new opportunities ever since.
             </span>
@@ -70,7 +74,7 @@ const Interests = () => {
         />
         <Interest
           img={gym}
-          interestName={'Gym & Nutrition'}
+          interestName={'Workout & Nutrition'}
           interestDesc={
             <span>
               I work out every day, as it helps keep my stress levels low and{' '}
@@ -81,6 +85,22 @@ const Interests = () => {
           }
         />
       </div>
+
+      <CustomButton
+        type="button"
+        style={{
+          marginTop: isMobile ? '275px' : '120px',
+        }}
+      >
+        <a
+          href="/Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn-link"
+        >
+          My Resume
+        </a>
+      </CustomButton>
     </div>
   )
 }

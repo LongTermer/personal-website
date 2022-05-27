@@ -22,7 +22,7 @@ const Navbar = () => (
           <a
             href="mailto:mihajlomaksa9@gmail.com"
             className="nav-link"
-            title="About Me"
+            title="Contact"
           >
             Contact
           </a>
@@ -30,10 +30,21 @@ const Navbar = () => (
         <li className="nav-item">
           <a
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
+            href="https://github.com/mihailo-maksa"
+            className="nav-link"
+            title="Github"
+          >
+            Github
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
             href="/Resume.pdf"
             className="nav-link"
-            title="Portfolio"
+            title="Resume"
           >
             Resume
           </a>

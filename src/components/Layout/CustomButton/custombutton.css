@@ -1,7 +1,7 @@
 .custom-button {
-  min-width: 105px;
+  min-width: 175px;
   margin: 0;
-  width: auto;
+  /* width: auto; */
   letter-spacing: 0.5px;
   line-height: 35px;
   padding: 0 15px 0 15px;

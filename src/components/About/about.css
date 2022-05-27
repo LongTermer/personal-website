@@ -35,4 +35,8 @@
   .about-me {
     width: 60%;
   }
+
+  .about {
+    margin-bottom: -20px;
+  }
 }

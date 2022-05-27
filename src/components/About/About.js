@@ -7,9 +7,9 @@ const About = () => (
     <div className="border-line" />
     <div className="about-me">
       <p>
-        I'm a frontend developer from Novi Sad, Serbia with a{' '}
-        <strong>huge passion for crypto, DeFi & web3.</strong> I've always been
-        a visual person that{' '}
+        I'm a full stack developer from Novi Sad, Serbia with{' '}
+        <strong>a huge passion for crypto, DeFi & web3.</strong> I've always
+        been a visual person that{' '}
         <strong>enjoys building products and delivering solutions</strong> that
         make users' lives easier. I truly thrive when{' '}
         <strong>working in a team of passionate, like-minded people</strong>{' '}
@@ -17,18 +17,21 @@ const About = () => (
       </p>
 
       <p>
-        I'm highly competitive, low-maintenance, communicative and
+        I'm a highly competitive, low-maintenance, communicative and
         self-motivated person that everyone in the team can count on in any
         situation. I understand{' '}
-        <strong>DeFi, NFTs, DAOs, dApps, web3 and crypto in general</strong> on
-        a very high level and I've been fascinated by the whole space since I
+        <strong>
+          DeFi, NFTs, DAOs, dApps, web3, crypto and blockchain in general
+        </strong>{' '}
+        at a very high level and I've been fascinated by the whole space since I
         got interested into it and{' '}
-        <strong>started building my first projects back in 2018.</strong> Also,{' '}
+        <strong>started building my first web3 projects back in 2018.</strong>{' '}
+        Also,{' '}
         <strong>
           I speak English with a native-level fluency and I'm used to working
           remote.
         </strong>{' '}
-        I highly prefer getting paid in crypto.
+        Naturally, I highly prefer getting paid in crypto.
       </p>
     </div>
   </div>

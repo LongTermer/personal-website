@@ -3,7 +3,6 @@ import './introanimation.css'
 import './particles.css'
 import './animation.css'
 import CustomButton from '../CustomButton/CustomButton'
-import { Link } from 'react-router-dom'
 
 const IntroAnimation = () => (
   <div className="intro-animation" id="intro">
@@ -29,15 +28,15 @@ const IntroAnimation = () => (
         <h1 className="hi-mihailo-maksa">
           Hi, I'm <span style={{ color: '#f7931a' }}>Mihailo!</span>
         </h1>
-        <p className="full-stack">A Web3 Frontend Developer</p>
+        <p className="full-stack">A Full Stack Web3 Developer</p>
         <CustomButton type="button">
           <a
             href="/Resume.pdf"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="btn-link"
           >
-            Resume
+            My Resume
           </a>
         </CustomButton>
       </div>

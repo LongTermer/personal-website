@@ -2,9 +2,9 @@ import React from 'react'
 import './skills.css'
 import react from '../../assets/react.png'
 import ts from '../../assets/typescript.png'
-import web3js from '../../assets/web3_js.png'
-import nodejs from '../../assets/nodejs.jpg'
+import ethers from '../../assets/ethers_js.png'
 import solidity from '../../assets/solidity.png'
+import hardhat from '../../assets/hardhat.png'
 import ipfs from '../../assets/IPFS.png'
 
 const Skills = () => {
@@ -31,9 +31,9 @@ const Skills = () => {
       <div className="skills-container">
         <Skill img={react} skillName={'React'} />
         <Skill img={ts} skillName={'TypeScript'} radius />
-        <Skill img={web3js} skillName={'Ethers.js & Web3.js'} />
-        <Skill img={nodejs} skillName={'Node.js'} />
+        <Skill img={ethers} skillName={'Ethers.js & Web3.js'} />
         <Skill img={solidity} skillName={'Solidity'} />
+        <Skill img={hardhat} skillName={'Hardhat & Truffle'} />
         <Skill img={ipfs} skillName={'IPFS'} />
       </div>
     </div>
