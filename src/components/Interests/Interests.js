@@ -25,8 +25,6 @@ const Interests = () => {
     main()
   }, [])
 
-  console.log(altLinks)
-
   const Interest = ({ img, interestName, interestDesc, radius }) => (
     <div className="interest">
       <img
