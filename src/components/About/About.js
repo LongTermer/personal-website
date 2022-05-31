@@ -7,7 +7,7 @@ const About = () => (
     <div className="border-line" />
     <div className="about-me">
       <p>
-        I'm a full stack developer from Novi Sad, Serbia with{' '}
+        I'm a full stack web3 developer from Novi Sad, Serbia with{' '}
         <strong>a huge passion for crypto, DeFi & web3.</strong> I've always
         been a visual person that{' '}
         <strong>enjoys building products and delivering solutions</strong> that
@@ -28,10 +28,9 @@ const About = () => (
         <strong>started building my first web3 projects back in 2018.</strong>{' '}
         Also,{' '}
         <strong>
-          I speak English with a native-level fluency and I'm used to working
-          remote.
-        </strong>{' '}
-        Naturally, I highly prefer getting paid in crypto.
+          I speak English with a native-level fluency and I'm completely used to
+          working remote.
+        </strong>
       </p>
     </div>
   </div>

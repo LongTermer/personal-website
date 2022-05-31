@@ -4,7 +4,7 @@ import './projects.css'
 const ProjectCard = ({ img, title, info, info2 }) => {
   return (
     <div className="personal-project">
-      <div className="project-image">
+      {/* <div className="project-image">
         <img
           src={img}
           alt={title}
@@ -14,7 +14,7 @@ const ProjectCard = ({ img, title, info, info2 }) => {
             borderRadius: '4%',
           }}
         />
-      </div>
+        </div> */}
       <div
         className="project-container"
         style={{ border: '1px solid #000', padding: '10px' }}
