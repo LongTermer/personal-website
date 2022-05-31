@@ -24,12 +24,12 @@ const About = () => (
           DeFi, NFTs, DAOs, dApps, web3, crypto and blockchain in general
         </strong>{' '}
         at a very high level and I've been fascinated by the whole space since I
-        got interested into it and{' '}
+        got interested in it and{' '}
         <strong>started building my first web3 projects back in 2018.</strong>{' '}
         Also,{' '}
         <strong>
           I speak English with a native-level fluency and I'm completely used to
-          working remote.
+          working remotely.
         </strong>
       </p>
     </div>
