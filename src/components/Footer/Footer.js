@@ -2,6 +2,7 @@ import React from 'react'
 import './footer.css'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import EmailIcon from '@material-ui/icons/Email'
+import TwitterIcon from "@material-ui/icons/Twitter";
 
 const Footer = () => (
   <div className="footer">
@@ -15,6 +16,14 @@ const Footer = () => (
       rel="noopener noreferrer"
     >
       <GitHubIcon />
+    </a>
+    <a
+      href="https://twitter.com/MihailoMaksa"
+      className="github-link"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <TwitterIcon />
     </a>
     <br />
     <p className="copyright">
