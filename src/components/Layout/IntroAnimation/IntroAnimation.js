@@ -36,7 +36,7 @@ const IntroAnimation = () => (
             rel="noopener noreferrer"
             className="btn-link"
           >
-            My Resume
+            Resume
           </a>
         </CustomButton>
       </div>

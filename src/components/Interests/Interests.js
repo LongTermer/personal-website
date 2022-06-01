@@ -113,7 +113,7 @@ const Interests = () => {
           rel="noopener noreferrer"
           className="btn-link"
         >
-          My Resume
+          Resume
         </a>
       </CustomButton>
 
