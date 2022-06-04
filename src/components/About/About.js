@@ -8,10 +8,11 @@ const About = () => (
     <div className="about-me">
       <p>
         I'm a full stack web3 developer from Novi Sad, Serbia with{' '}
-        <strong>a huge passion for crypto, DeFi & web3.</strong> I've always
-        been a visual person that{' '}
-        <strong>enjoys building products and delivering solutions</strong> that
-        make users' lives easier. I truly thrive when{' '}
+        <strong>a huge passion for crypto, DeFi & web3.</strong> My specialty is
+        in the <strong>solidity smart contract development</strong> for a wide
+        array of use cases. I've always enjoyed{' '}
+        <strong>building products and delivering solutions</strong> that make
+        users' lives easier. I truly thrive when{' '}
         <strong>working in a team of passionate, like-minded people</strong>{' '}
         that are driven to make the most out of every project.
       </p>
