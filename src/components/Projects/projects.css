@@ -27,11 +27,13 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 5%;
   margin-top: 10px;
+  margin-bottom: 110px;
 }
 
 @media screen and (max-width: 800px) {
   .my-projects {
     grid-template-columns: 1fr;
+    margin-bottom: 140px;
   }
 }
 

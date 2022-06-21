@@ -1,17 +1,17 @@
-import React from 'react'
-import ProjectCard from './ProjectCard'
-import './projects.css'
-import Skills from '../Skills/Skills'
-import personalProject from '../../assets/personal_project.png'
-import freelanceProject from '../../assets/freelance_project.png'
-import longTermFi from '../../assets/longterm.png'
-import avix from '../../assets/avix.jpg'
+import React from 'react';
+import ProjectCard from './ProjectCard';
+import './projects.css';
+import Skills from '../Skills/Skills';
+import personalProject from '../../assets/personal_project.png';
+import freelanceProject from '../../assets/freelance_project.png';
+import longTermFi from '../../assets/longterm.png';
+import avix from '../../assets/avix.jpg';
 
 const Projects = () => (
-  <div className="selected-projects" id="portfolio">
-    <h1 className="portfolio-title selected-title">PRIOR EXPERIENCE</h1>
-    <div className="border-line portfolio-border-line" />
-    <div className="my-projects">
+  <div className='selected-projects' id='portfolio'>
+    <h1 className='portfolio-title selected-title'>PRIOR EXPERIENCE</h1>
+    <div className='border-line portfolio-border-line' />
+    <div className='my-projects'>
       <ProjectCard
         img={personalProject}
         title={'Personal Projects'}
@@ -30,10 +30,10 @@ const Projects = () => (
             </strong>{' '}
             All of them are fully open sourced and can be found on my{' '}
             <a
-              href="https://github.com/mihailo-maksa"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bold project-card-link"
+              href='https://github.com/mihailo-maksa'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='bold project-card-link'
             >
               Github.
             </a>
@@ -79,18 +79,23 @@ const Projects = () => (
         info={
           <span>
             <strong>
-              ScaleRoad is a platform for tracking and managing investment
-              research
+              <a
+                href='https://scaleroad.com'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='bold project-card-link'
+              >
+                ScaleRoad
+              </a>{' '}
+              is a platform for tracking and managing investment research
             </strong>{' '}
             in a structured and organized way.
           </span>
         }
         info2={
           <span>
-            <strong>
-              I was tasked with building various custom UI elements
-            </strong>{' '}
-            and integrating complex subscription and usage-based{' '}
+            <strong>I was tasked with building custom UI elements</strong> and
+            integrating complex subscription and usage-based{' '}
             <strong>payment methods.</strong>
           </span>
         }
@@ -118,10 +123,10 @@ const Projects = () => (
         info={
           <span>
             <a
-              href="https://long-term.finance"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bold project-card-link"
+              href='https://long-term.finance'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='bold project-card-link'
             >
               LongTerm Finance
             </a>{' '}
@@ -136,7 +141,32 @@ const Projects = () => (
             </strong>{' '}
             and made{' '}
             <strong>significant contributions to its frontend dashboard</strong>{' '}
-            as well.
+            as well, focusing on the simplicity and ease of use.
+          </span>
+        }
+      />
+      <ProjectCard
+        img={avix}
+        title={'Majr Inc.'}
+        info={
+          <span>
+            <a
+              href='https://majr.io'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='bold project-card-link'
+            >
+              Majr
+            </a>{' '}
+            is a <strong>web3 media company</strong> focused on video content
+            and community <strong>digital asset accumulation.</strong>{' '}
+          </span>
+        }
+        info2={
+          <span>
+            My tasks include{' '}
+            <strong>creating tokens, NFTs, governance, treasury and DAO</strong>{' '}
+            smart contracts, and everything else web3-related.
           </span>
         }
       />
@@ -144,6 +174,6 @@ const Projects = () => (
     </div>
     <Skills />
   </div>
-)
+);
 
-export default Projects
+export default Projects;
