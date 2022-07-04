@@ -158,8 +158,9 @@ const Projects = () => (
             >
               Majr
             </a>{' '}
-            is a <strong>web3 media company</strong> focused on video content
-            and community <strong>digital asset accumulation.</strong>{' '}
+            is a <strong>web3 media company</strong> focused on the video
+            content curation and community{' '}
+            <strong>digital asset accumulation.</strong>{' '}
           </span>
         }
         info2={
