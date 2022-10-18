@@ -3,13 +3,13 @@
   right: 0;
   top: 0;
   z-index: 10 !important;
+  width: 100%;
 }
 
 .navbar {
   height: 90px;
   background-color: #0d1014;
   color: #fff;
-  width: 99.1vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -63,9 +63,17 @@
     margin-left: 0;
   }
 
+  .nav-list:last-child {
+    margin-right: 25px;
+  }
+
   .nav-item {
     font-size: 12px;
-    margin-right: 35px;
+    margin-right: 25px;
+  }
+
+  .nav-link {
+    font-size: 1.25em;
   }
 }
 

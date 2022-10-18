@@ -1,14 +1,38 @@
 .footer {
   background-color: #0d1014;
-  height: 150px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
   width: 100%;
   margin-top: 0;
   bottom: 0;
   left: 0;
   width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+  .footer {
+    height: 130px;
+    flex-direction: column;
+  }
+
+  .footer-links {
+    margin-bottom: 10px;
+    margin-left: 37px;
+  }
+
+  .copyright {
+    margin-bottom: 10px !important;
+  }
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 .copyright {

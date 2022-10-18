@@ -9,6 +9,7 @@ html {
 body {
   margin: 0;
   font-family: Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 code {
@@ -20,8 +21,8 @@ a {
   color: #000;
 }
 
-input[type='text'],
-input[type='email'] {
+input[type="text"],
+input[type="email"] {
   border: none;
   border: 1px solid #333;
   border-radius: 5px;
