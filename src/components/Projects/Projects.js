@@ -31,7 +31,7 @@ const Projects = () => (
             <strong>
               I've built over 100 different personal projects over time.
             </strong>{" "}
-            All of them are fully open sourced and can be found on my{" "}
+            All of them have been fully open sourced and can be found on my{" "}
             <a
               href="https://github.com/mihailo-maksa"
               target="_blank"

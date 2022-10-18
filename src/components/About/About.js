@@ -7,7 +7,7 @@ const About = () => (
     <div className="border-line" />
     <div className="about-me">
       <p>
-        I'm a full stack web3 developer from Novi Sad, Serbia with{" "}
+        I'm a senior smart contract engineer from Novi Sad, Serbia with{" "}
         <strong>a huge passion for crypto, DeFi & web3.</strong> My specialty is
         in the <strong>solidity smart contract development</strong> for a wide
         array of use cases. I've always enjoyed{" "}

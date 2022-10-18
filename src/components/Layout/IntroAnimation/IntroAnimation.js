@@ -1,34 +1,34 @@
-import React from 'react'
-import './introanimation.css'
-import './particles.css'
-import './animation.css'
-import CustomButton from '../CustomButton/CustomButton'
+import React from "react";
+import "./introanimation.css";
+import "./particles.css";
+import "./animation.css";
+import CustomButton from "../CustomButton/CustomButton";
 
 const IntroAnimation = () => (
   <div className="intro-animation" id="intro">
     <div
       className="animation-container"
       style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        flexDirection: 'row',
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        flexDirection: "row",
       }}
     >
       {/* mihailo */}
       <div
         className="mihailo-maksa"
         style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          flexDirection: 'column',
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          flexDirection: "column",
         }}
       >
         <h1 className="hi-mihailo-maksa">
-          Hi, I'm <span style={{ color: '#f7931a' }}>Mihailo!</span>
+          Hi, I'm <span style={{ color: "#f7931a" }}>Mihailo!</span>
         </h1>
-        <p className="full-stack">A Full Stack Web3 Developer</p>
+        <p className="job-title">A Senior Smart Contract Engineer</p>
         <CustomButton type="button">
           <a
             href="/Resume.pdf"
@@ -126,6 +126,6 @@ const IntroAnimation = () => (
       </div>
     </div>
   </div>
-)
+);
 
-export default IntroAnimation
+export default IntroAnimation;
