@@ -1,15 +1,18 @@
 import React from "react";
 import "./projects.css";
+import { useMediaQuery } from "react-responsive";
 
 const ProjectCard = ({ img, title, info, info2 }) => {
+  const isMobile = useMediaQuery({ query: "(max-width: 400px)" });
+
   return (
     <div className="personal-project">
       <div className="project-image">
         <img
           src={img}
           alt={title}
-          width={350}
-          height={180}
+          width={isMobile ? 290 : 358}
+          height={isMobile ? 146 : 180}
           style={{
             borderRadius: "4%",
             border: "1px solid #000",

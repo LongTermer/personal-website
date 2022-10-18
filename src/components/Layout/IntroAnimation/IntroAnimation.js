@@ -15,7 +15,6 @@ const IntroAnimation = () => (
         flexDirection: "row",
       }}
     >
-      {/* mihailo */}
       <div
         className="mihailo-maksa"
         style={{

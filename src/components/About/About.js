@@ -28,8 +28,8 @@ const About = () => (
         since I got interested in it and{" "}
         <strong>started building my first web3 projects back in 2018.</strong> I
         knew it right from the start that web3 is{" "}
-        <strong>my way of making a dent in the universe.</strong> Also, I speak
-        English with a native-level fluency and{" "}
+        <strong>my way of making a dent in the universe.</strong> <br />
+        <br /> Also, I speak English with a native-level fluency and{" "}
         <strong>I'm 100% used to working remotely.</strong>
       </p>
     </div>

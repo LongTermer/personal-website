@@ -34,6 +34,7 @@
   .my-projects {
     grid-template-columns: 1fr;
     margin-bottom: 140px;
+    grid-gap: 2%;
   }
 }
 
@@ -80,6 +81,23 @@
   .project-image,
   .project-container {
     margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .project-container {
+    width: 290px;
+    height: 200px;
+    margin-left: 30px;
+  }
+
+  .project-title {
+    font-size: 1.2em !important;
+  }
+
+  .project-info,
+  .project-info-2 {
+    font-size: 0.8em !important;
   }
 }
 

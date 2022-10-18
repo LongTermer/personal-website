@@ -114,7 +114,7 @@ const Projects = () => (
         }
         info2={
           <span>
-            <strong>I worked as a part of the frontend team</strong> and{" "}
+            <strong>I worked as a part of the web3 developer team</strong> and{" "}
             <strong>helped with integrating on-chain oracles</strong> into the
             protocol's smart contracts.
           </span>
@@ -139,10 +139,8 @@ const Projects = () => (
         }
         info2={
           <span>
-            <strong>
-              I built and integrated all smart contracts of the dApp
-            </strong>{" "}
-            and made{" "}
+            <strong>I built all smart contracts of the protocol</strong> and
+            made{" "}
             <strong>significant contributions to its frontend dashboard</strong>{" "}
             as well, focusing on the simplicity and ease of use.
           </span>
