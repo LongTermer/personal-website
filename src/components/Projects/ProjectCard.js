@@ -11,7 +11,7 @@ const ProjectCard = ({ img, title, info, info2 }) => {
         <img
           src={img}
           alt={title}
-          width={isMobile ? 290 : 358}
+          width={isMobile ? 290 : 348}
           height={isMobile ? 146 : 180}
           style={{
             borderRadius: "4%",

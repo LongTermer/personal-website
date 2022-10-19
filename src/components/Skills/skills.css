@@ -11,7 +11,7 @@
   color: #333333;
   font-weight: bold;
   margin-bottom: 20px;
-  margin-top: 110px;
+  margin-top: 140px;
   font-size: 2.5em;
 }
 
@@ -67,12 +67,16 @@
 
 @media screen and (max-width: 800px) {
   .skills {
-    margin-top: 236px;
-    margin-bottom: 250px;
+    margin-top: 216px;
+    margin-bottom: 258px;
   }
 
   .skills-container {
     grid-template-columns: 1fr;
+  }
+
+  .skills-heading {
+    margin-top: 130px !important;
   }
 }
 

@@ -1,29 +1,29 @@
-import React, { useState, useEffect } from 'react'
-import './interests.css'
-import web3 from '../../assets/web3.png'
-import investing from '../../assets/investing.png'
-import renewable from '../../assets/renewable.jpg'
-import gym from '../../assets/gym.png'
-import CustomButton from '../Layout/CustomButton/CustomButton'
-import { useMediaQuery } from 'react-responsive'
+import React, { useState, useEffect } from "react";
+import "./interests.css";
+import web3 from "../../assets/web3.png";
+import investing from "../../assets/investing.png";
+import renewable from "../../assets/renewable.jpg";
+import gym from "../../assets/gym.png";
+import CustomButton from "../Layout/CustomButton/CustomButton";
+import { useMediaQuery } from "react-responsive";
 
 const Interests = () => {
   const [altLinks, setAltLinks] = useState([
-    'https://mihailomaksa.com',
-    'https://mihailomaksa.eth.link',
-    'https://mihailomaksa.eth.limo',
-  ])
-  const isMobile = useMediaQuery({ query: '(max-width: 800px)' })
+    "https://mihailomaksa.com",
+    "https://mihailomaksa.eth.link",
+    "https://mihailomaksa.eth.limo",
+  ]);
+  const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
 
   useEffect(() => {
     const main = () => {
       const filteredAltLinks = altLinks.filter(
-        (link) => link !== window.location.origin,
-      )
-      setAltLinks(filteredAltLinks)
-    }
-    main()
-  }, [])
+        (link) => link !== window.location.origin
+      );
+      setAltLinks(filteredAltLinks);
+    };
+    main();
+  }, []);
 
   const Interest = ({ img, interestName, interestDesc, radius }) => (
     <div className="interest">
@@ -34,27 +34,27 @@ const Interests = () => {
         height={140}
         className="skill-image"
         style={{
-          borderRadius: radius && '5%',
+          borderRadius: radius && "5%",
         }}
       />
       <h3 className="interest-title">{interestName}</h3>
       <p className="interest-desc">{interestDesc}</p>
     </div>
-  )
+  );
 
   return (
     <div className="interests">
-      <h1 className="skills-heading">MY INTERESTS</h1>
+      <h1 className="interests-heading">MY INTERESTS</h1>
       <div className="border-line" />
       <div className="interests-container">
         <Interest
           img={web3}
-          interestName={'Web3'}
+          interestName={"Web3"}
           interestDesc={
             <span>
               I'm constantly learning and researching about new innovations from
-              the web3 space. My favorite areas of research include{' '}
-              <strong>decentralized finance (DeFi)</strong> and{' '}
+              the web3 space. My favorite areas of research include{" "}
+              <strong>decentralized finance (DeFi)</strong> and{" "}
               <strong>Ethereum layer 2 scaling solutions.</strong>
             </span>
           }
@@ -62,24 +62,24 @@ const Interests = () => {
         <Interest
           img={investing}
           radius
-          interestName={'Investing'}
+          interestName={"Investing"}
           interestDesc={
             <span>
               I strongly believe that compound interest is the eighth world
-              wonder.{' '}
+              wonder.{" "}
               <strong>
                 I bought my first Ether during the 2018 bear market
-              </strong>{' '}
+              </strong>{" "}
               and haven't stopped finding new opportunities ever since.
             </span>
           }
         />
         <Interest
           img={renewable}
-          interestName={'Renewable Energy'}
+          interestName={"Renewable Energy"}
           interestDesc={
             <span>
-              I believe it's essential for the{' '}
+              I believe it's essential for the{" "}
               <strong>humanity's future prosperity</strong> that we focus on
               transitioning to the renewable energy as soon as possible. I'm
               especially interested in <strong>electric vehicles</strong> and
@@ -89,11 +89,11 @@ const Interests = () => {
         />
         <Interest
           img={gym}
-          interestName={'Workout & Nutrition'}
+          interestName={"Workout & Nutrition"}
           interestDesc={
             <span>
-              I work out every day, as it helps keep my stress levels low and{' '}
-              <strong>it makes me much more productive in my work.</strong>{' '}
+              I work out every day, as it helps keep my stress levels low and{" "}
+              <strong>it makes me much more productive in my work.</strong>{" "}
               Also, a healthy, balanced and mostly plant-based diet is a
               priority to me.
             </span>
@@ -104,7 +104,7 @@ const Interests = () => {
       <CustomButton
         type="button"
         style={{
-          marginTop: isMobile ? '275px' : '120px',
+          marginTop: isMobile ? "235px" : "96px",
         }}
       >
         <a
@@ -130,14 +130,14 @@ const Interests = () => {
                 rel="noopener noreferrer"
                 className="bold project-card-link"
               >
-                {link.split('://')[1]}
+                {link.split("://")[1]}
               </a>
             </span>
           ))}
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Interests
+export default Interests;
