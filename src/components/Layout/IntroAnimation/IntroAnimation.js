@@ -13,6 +13,7 @@ const IntroAnimation = () => (
         alignItems: "center",
         justifyContent: "center",
         flexDirection: "row",
+        width: "100%",
       }}
     >
       <div
