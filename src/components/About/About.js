@@ -10,7 +10,7 @@ const About = () => (
         As a seasoned and{" "}
         <strong>highly skilled senior smart contract engineer,</strong> I bring
         a deep passion and expertise in the crypto, decentralized finance
-        (DeFi), and web3 space to every project. My specialty is in{" "}
+        (DeFi), and web3 space to every project. My specialty is in the{" "}
         <strong>solidity smart contract development</strong> for a wide range of
         use cases, and I excel in collaborative environments with like-minded,
         driven individuals.
@@ -21,8 +21,8 @@ const About = () => (
         tokens <strong>(NFTs),</strong>
         decentralized autonomous organizations <strong>(DAOs),</strong>{" "}
         decentralized applications{" "}
-        <strong>(dApps), web3, crypto, and blockchain in general,</strong> and I
-        have been working on my personal web3 projects since 2018. I am deeply
+        <strong>(dApps), web3, crypto, and blockchain in general,</strong> and
+        I've been working on my personal web3 projects since 2018. I am deeply
         committed to leveraging this cutting-edge technology to{" "}
         <strong>make a meaningful impact in the world.</strong>
       </p>
