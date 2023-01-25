@@ -43,7 +43,7 @@
   position: relative;
 }
 
-.github-link,
+.social-link,
 .email-link {
   color: #f2f2f2;
   text-align: center;
@@ -59,7 +59,7 @@
   align-items: center;
 }
 
-.github-link:hover,
+.social-link:hover,
 .email-link:hover {
   background-color: #212429;
   transform: scale(1.32);

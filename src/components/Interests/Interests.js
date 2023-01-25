@@ -13,6 +13,7 @@ const Interests = () => {
     "https://mihailomaksa.eth.link",
     "https://mihailomaksa.eth.limo",
   ]);
+
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
 
   useEffect(() => {
@@ -25,8 +26,8 @@ const Interests = () => {
     main();
   }, []);
 
-  const Interest = ({ img, interestName, interestDesc, radius }) => (
-    <div className="interest">
+  const Interest = ({ img, interestName, interestDesc, radius, style }) => (
+    <div className="interest" style={style}>
       <img
         src={img}
         alt={interestName}
@@ -52,50 +53,82 @@ const Interests = () => {
           interestName={"Web3"}
           interestDesc={
             <span>
-              I'm constantly learning and researching about new innovations from
-              the web3 space. My favorite areas of research include{" "}
+              As a dedicated and forward-thinking individual,{" "}
+              <strong>I am consistently expanding my knowledge</strong> and
+              understanding of the latest advancements in the web3 space. <br />
+              <br /> My areas of focus include{" "}
               <strong>decentralized finance (DeFi)</strong> and{" "}
-              <strong>Ethereum layer 2 scaling solutions.</strong>
+              <strong>Ethereum layer 2 scaling solutions,</strong> which I
+              continuously research and study in order to stay at the forefront
+              of the industry.
             </span>
           }
         />
         <Interest
           img={investing}
           radius
+          style={{
+            marginTop: isMobile ? "-39px" : "0",
+          }}
           interestName={"Investing"}
           interestDesc={
             <span>
-              I strongly believe that compound interest is the eighth world
-              wonder.{" "}
+              I am a firm believer in the power of{" "}
+              <strong>compound interest</strong> and consider it one of the
+              greatest wonders of the world. I made my{" "}
               <strong>
-                I bought my first Ether during the 2018 bear market
+                first investment in Ether during the bear market of 2018
               </strong>{" "}
-              and haven't stopped finding new opportunities ever since.
+              and have been actively seeking out new opportunities in the crypto
+              market ever since.
+              <br /> <br />
+              Through my <strong>continued research</strong> and{" "}
+              <strong>proven investment strategies,</strong> I am dedicated to
+              realizing the full potential of my crypto assets and maximizing
+              returns.
             </span>
           }
         />
         <Interest
           img={renewable}
+          style={{
+            marginTop: isMobile ? "-75px" : "0",
+          }}
           interestName={"Renewable Energy"}
           interestDesc={
             <span>
-              I believe it's essential for the{" "}
-              <strong>humanity's future prosperity</strong> that we focus on
-              transitioning to the renewable energy as soon as possible. I'm
-              especially interested in <strong>electric vehicles</strong> and
-              <strong> solar energy.</strong>
+              As a forward-thinking individual, I am convinced that a rapid
+              transition to renewable energy sources is crucial for humanity's
+              future prosperity. I am particularly passionate about the
+              potential of <strong>electric vehicles</strong> and{" "}
+              <strong>solar energy.</strong>
+              <br /> <br />I am dedicated to staying informed and educated about
+              the latest developments in these industries, and actively seeking
+              out opportunities to{" "}
+              <strong>contribute to their growth and success.</strong>
             </span>
           }
         />
         <Interest
           img={gym}
+          style={{
+            marginTop: isMobile ? "-70px" : "0",
+          }}
           interestName={"Workout & Nutrition"}
           interestDesc={
             <span>
-              I work out every day, as it helps keep my stress levels low and{" "}
-              <strong>it makes me much more productive in my work.</strong>{" "}
-              Also, a healthy, balanced and mostly plant-based diet is a
-              priority to me.
+              I am fully committed to maintaining a healthy lifestyle through{" "}
+              <strong>daily exercise</strong> and{" "}
+              <strong>a well-balanced, whole-foods based diet.</strong> I
+              understand the positive impact that this has on reducing my stress
+              levels, <strong>increasing productivity,</strong> and promoting a
+              sense of mental and physical balance.
+              <br /> <br />I believe that taking care of oneself through fitness
+              and nutrition is essential for achieving personal and professional
+              goals, and I make it a priority to{" "}
+              <strong>
+                maintain these habits as a part of my daily routine.
+              </strong>
             </span>
           }
         />
@@ -104,8 +137,10 @@ const Interests = () => {
       <CustomButton
         type="button"
         style={{
-          marginTop: isMobile ? "235px" : "96px",
+          marginTop: isMobile ? "435px" : "96px",
+          width: "175px",
         }}
+        className="resume-btn-bottom"
       >
         <a
           href="/Resume.pdf"

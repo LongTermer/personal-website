@@ -29,3 +29,13 @@
     width: 99%;
   }
 }
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 2em !important;
+  }
+
+  h3 {
+    font-size: 1.35em !important;
+  }
+}

@@ -82,6 +82,7 @@
 
   .interests-container {
     grid-template-columns: 1fr;
+    margin-bottom: -65px;
   }
 
   .interests-heading {

@@ -4,7 +4,8 @@
   justify-content: center;
   flex-direction: column;
   background-color: #fff;
-  margin-top: 155px;
+  margin-top: 123px;
+  margin-bottom: -11px;
 }
 
 .skills-heading {
@@ -68,7 +69,7 @@
 @media screen and (max-width: 800px) {
   .skills {
     margin-top: 216px;
-    margin-bottom: 258px;
+    margin-bottom: 263px;
   }
 
   .skills-container {
@@ -76,7 +77,7 @@
   }
 
   .skills-heading {
-    margin-top: 130px !important;
+    margin-top: 255px !important;
   }
 }
 

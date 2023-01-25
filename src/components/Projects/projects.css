@@ -33,7 +33,7 @@
 @media screen and (max-width: 800px) {
   .my-projects {
     grid-template-columns: 1fr;
-    margin-bottom: 140px;
+    margin-bottom: 120px;
     grid-gap: 2%;
   }
 

@@ -29,7 +29,12 @@ const IntroAnimation = () => (
           Hi, I'm <span style={{ color: "#f7931a" }}>Mihailo!</span>
         </h1>
         <p className="job-title">A Senior Smart Contract Engineer</p>
-        <CustomButton type="button">
+        <CustomButton
+          type="button"
+          style={{
+            width: "175px",
+          }}
+        >
           <a
             href="/Resume.pdf"
             target="_blank"

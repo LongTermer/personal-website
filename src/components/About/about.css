@@ -34,6 +34,7 @@
 @media screen and (max-width: 800px) {
   .about-me {
     width: 60%;
+    font-size: 1em;
   }
 
   .about {
