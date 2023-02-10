@@ -22,7 +22,7 @@ const About = () => (
         decentralized autonomous organizations <strong>(DAOs),</strong>{" "}
         decentralized applications{" "}
         <strong>(dApps), web3, crypto, and blockchain in general,</strong> and
-        I've been working on my personal web3 projects since 2018. I am deeply
+        I've been working on various web3 projects since 2018. I am deeply
         committed to leveraging this cutting-edge technology to{" "}
         <strong>make a meaningful impact in the world.</strong>
       </p>
