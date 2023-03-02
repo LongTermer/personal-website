@@ -70,5 +70,5 @@
 }
 
 .author:hover {
-  font-weight: bold;
+  text-decoration: underline;
 }
