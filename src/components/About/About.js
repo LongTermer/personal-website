@@ -7,10 +7,13 @@ const About = () => (
     <div className="border-line" />
     <div className="about-me">
       <p>
-        As a seasoned and{" "}
-        <strong>highly skilled senior smart contract engineer,</strong> I bring
-        a deep passion and expertise in the crypto, decentralized finance
-        (DeFi), and web3 space to every project. My specialty is in the{" "}
+        As a seasoned and highly skilled{" "}
+        <strong>
+          senior smart contract engineer with 4+ years of experience in the
+          smart contract development
+        </strong>
+        , I bring a deep expertise and passion in the crypto, decentralized
+        finance (DeFi), and web3 space to every project. My specialty is in the{" "}
         <strong>solidity smart contract development</strong> for a wide range of
         use cases, and I excel in collaborative environments with like-minded,
         driven individuals.

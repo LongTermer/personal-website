@@ -3,8 +3,6 @@ import ProjectCard from "./ProjectCard";
 import "./projects.css";
 import Skills from "../Skills/Skills";
 import personalProjects from "../../assets/personal_projects.png";
-import freelance from "../../assets/freelance.png";
-import ecommerce from "../../assets/selerro.png";
 import scaleroad from "../../assets/scaleroad.png";
 import avix from "../../assets/avix.png";
 import longterm from "../../assets/longterm.png";
@@ -22,8 +20,7 @@ const Projects = () => (
         info={
           <span>
             <strong>My passion for building</strong> and experimenting with web3
-            technology resulted in over 100 personal projects, all available on
-            my{" "}
+            technology resulted in over 100 personal projects, as shown on my{" "}
             <a
               href="https://github.com/mihailo-maksa"
               target="_blank"
@@ -43,39 +40,6 @@ const Projects = () => (
         }
       />
       <ProjectCard
-        img={freelance}
-        title={"Freelance Web Development"}
-        info={
-          <span>
-            <strong>Back when I started freelancing,</strong> I was mostly
-            building websites for the local businesses.
-          </span>
-        }
-        info2={
-          <span>
-            These included projects with varying degrees of complexity, ranging{" "}
-            <strong>from simple static pages to complex web stores.</strong>
-          </span>
-        }
-      />
-      <ProjectCard
-        img={ecommerce}
-        title={"Ecommerce Specialization"}
-        info={
-          <span>
-            Later on, <strong>I focused on building ecommerce sites</strong> and
-            supporting merchants on platforms like Shopify.
-          </span>
-        }
-        info2={
-          <span>
-            My tasks included{" "}
-            <strong>building custom themes, integrating various plugins</strong>{" "}
-            and <strong>payment methods,</strong> including crypto payments.
-          </span>
-        }
-      />
-      <ProjectCard
         img={scaleroad}
         title={"ScaleRoad LLC"}
         info={
@@ -89,7 +53,7 @@ const Projects = () => (
               >
                 ScaleRoad
               </a>{" "}
-              is a platform for tracking and managing investment research
+              is a SaaS platform for tracking and managing investment research
             </strong>{" "}
             in a structured and organized way.
           </span>
@@ -108,8 +72,8 @@ const Projects = () => (
         info={
           <span>
             Avix Finance was a permissionless{" "}
-            <strong>tokenized volatility DeFi protocol</strong> built on the
-            Avalanche C-Chain.
+            <strong>tokenized volatility DeFi protocol</strong> designed to
+            track the price of VIX on-chain.
           </span>
         }
         info2={
@@ -133,8 +97,8 @@ const Projects = () => (
             >
               LongTerm Finance
             </a>{" "}
-            is <strong>a crypto index fund & lending protocol</strong> built on
-            the Polygon PoS chain.
+            is a <strong>tokenized index fund protocol</strong> designed to
+            track the market capitalization of the entire altcoin market.
           </span>
         }
         info2={
@@ -165,20 +129,22 @@ const Projects = () => (
         }
         info2={
           <span>
-            I'm working on{" "}
-            <strong>creating tokens, NFTs, governance and other</strong> smart
-            contracts, as well as the complex web3 integrations.
+            I worked on{" "}
+            <strong>
+              creating tokens, NFTs, staking, governance and other
+            </strong>{" "}
+            smart contracts, as well as the complex web3 integrations.
           </span>
         }
       />
       <ProjectCard
         img={audits}
-        title={"Smart Contract Audits"}
+        title={"Smart Contract Security Audits"}
         info={
           <span>
-            While working at MAJR,{" "}
+            The smart contracts that I developed were{" "}
             <strong>
-              my smart contracts were audited multiple times by{" "}
+              audited multiple times by{" "}
               <a
                 href="https://hacken.io"
                 target="_blank"
@@ -202,7 +168,7 @@ const Projects = () => (
               rel="noopener noreferrer"
               className="bold project-card-link"
             >
-              Audit 1
+              audit 1
             </a>{" "}
             and{" "}
             <a
@@ -211,7 +177,7 @@ const Projects = () => (
               rel="noopener noreferrer"
               className="bold project-card-link"
             >
-              Audit 2
+              audit 2
             </a>{" "}
             for more details.
           </span>

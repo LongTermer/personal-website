@@ -1,28 +1,11 @@
 import React, { Suspense } from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import "./App.css";
 import ErrorBoundary from "./components/Layout/ErrorBoundary/ErrorBoundary";
 import Spinner from "./components/Layout/Spinner/Spinner";
-import About from "./components/About/About";
-import Footer from "./components/Footer/Footer";
-import IntroAnimation from "./components/Layout/IntroAnimation/IntroAnimation";
 import Navbar from "./components/Navbar/Navbar";
-import Projects from "./components/Projects/Projects";
-import Interests from "./components/Interests/Interests";
-import NotFound from "./components/Layout/NotFound/NotFound";
-
-const HomePage = () => {
-  return (
-    <>
-      <IntroAnimation />
-      <div className="mid-container">
-        <About />
-        <Projects />
-        <Interests />
-      </div>
-    </>
-  );
-};
+import HomePage from "./components/HomePage";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -33,7 +16,7 @@ const App = () => {
           <Navbar />
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="*" element={<Navigate replace to="/" />} />
           </Routes>
           <Footer />
         </div>
