@@ -12,7 +12,7 @@ const About = () => (
           senior smart contract engineer with 4+ years of experience in the
           smart contract development
         </strong>
-        , I bring a deep expertise and passion in the crypto, decentralized
+        , I bring a deep expertise and passion for the crypto, decentralized
         finance (DeFi), and web3 space to every project. My specialty is in the{" "}
         <strong>solidity smart contract development</strong> for a wide range of
         use cases, and I excel in collaborative environments with like-minded,
