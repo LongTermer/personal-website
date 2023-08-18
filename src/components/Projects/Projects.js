@@ -60,7 +60,7 @@ const Projects = () => (
         }
         info2={
           <span>
-            <strong>I worked on building custom UI elements</strong> and
+            <strong>I've worked on building custom UI elements</strong> and
             integrating complex subscription and usage-based{" "}
             <strong>payment methods.</strong>
           </span>
@@ -78,9 +78,9 @@ const Projects = () => (
         }
         info2={
           <span>
-            <strong>I built smart contracts for the protocol</strong> and helped
-            with integrating Chainlink's <strong>on-chain price oracles</strong>{" "}
-            with them.
+            <strong>I've built smart contracts for the entire protocol</strong>{" "}
+            and helped with integrating Chainlink's{" "}
+            <strong>on-chain price oracles</strong> with them.
           </span>
         }
       />
@@ -103,9 +103,9 @@ const Projects = () => (
         }
         info2={
           <span>
-            <strong>I built smart contracts for the protocol</strong> and made
-            significant contributions to its <strong>frontend dashboard</strong>{" "}
-            as well.
+            <strong>I've built smart contracts for the entire protocol</strong>{" "}
+            and made significant contributions to its{" "}
+            <strong>frontend dashboard</strong> as well.
           </span>
         }
       />
@@ -129,9 +129,9 @@ const Projects = () => (
         }
         info2={
           <span>
-            I worked on{" "}
+            I've worked on{" "}
             <strong>
-              creating tokens, NFTs, staking, governance and other
+              creating tokens, NFTs, staking, DAO governance and other
             </strong>{" "}
             smart contracts, as well as the complex web3 integrations.
           </span>
@@ -142,7 +142,7 @@ const Projects = () => (
         title={"Smart Contract Security Audits"}
         info={
           <span>
-            The smart contracts that I developed were{" "}
+            The smart contracts that I've developed were{" "}
             <strong>
               audited multiple times by{" "}
               <a
