@@ -11,15 +11,15 @@
 .portfolio-title {
   color: #333333;
   font-weight: bold;
-  margin-bottom: 40px;
-  margin-top: 100px;
+  margin-bottom: 20px;
+  margin-top: 70px;
   font-size: 2.5em;
 }
 
 .portfolio-border-line {
   text-align: center;
   margin: auto;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .my-projects {
@@ -27,7 +27,6 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 5%;
   margin-top: 10px;
-  margin-bottom: 110px;
 }
 
 @media screen and (max-width: 800px) {
@@ -115,11 +114,13 @@
 .project-info {
   font-size: 1em;
   margin-bottom: 0;
+  text-align: left;
 }
 
 .project-info-2 {
   font-size: 1em;
   margin-top: 10px !important;
+  text-align: left;
 }
 
 .project-link {

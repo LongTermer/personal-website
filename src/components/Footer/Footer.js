@@ -1,9 +1,10 @@
 import React from "react";
 import "./footer.css";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import EmailIcon from "@material-ui/icons/Email";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import TelegramIcon from "@material-ui/icons/Telegram";
+import EmailIcon from "@material-ui/icons/Email";
 import { useMediaQuery } from "react-responsive";
 
 const Footer = () => {
@@ -13,15 +14,15 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-links">
         <a
-          href="mailto:mihajlomaksa9@gmail.com"
-          className="email-link"
+          href="https://twitter.com/MihailoMaksa"
+          className="social-link"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <EmailIcon />
+          <TwitterIcon />
         </a>
         <a
-          href="https://www.linkedin.com/in/mihailomaksa"
+          href="https://linkedin.com/in/mihailomaksa"
           className="social-link"
           target="_blank"
           rel="noopener noreferrer"
@@ -37,12 +38,20 @@ const Footer = () => {
           <GitHubIcon />
         </a>
         <a
-          href="https://twitter.com/MihailoMaksa"
+          href="https://t.me/MihailoMaksa"
           className="social-link"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <TwitterIcon />
+          <TelegramIcon />
+        </a>
+        <a
+          href="mailto:mihajlomaksa9@gmail.com"
+          className="email-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <EmailIcon />
         </a>
       </div>
       {!isMobile && <br />}

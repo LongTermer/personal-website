@@ -5,22 +5,26 @@
   flex-direction: column;
   background-color: #fff;
   margin-top: 10px;
-  margin-bottom: 128px !important;
+  margin-bottom: 93px !important;
 }
 
 .interests-heading {
   color: #333333;
   font-weight: bold;
   margin-bottom: 20px;
-  margin-top: 123px;
+  margin-top: 60px;
   font-size: 2.5em;
+}
+
+.interests-border-line {
+  margin-bottom: 45px;
 }
 
 .skills-overview {
   width: 80vw;
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 15px;
-  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
   align-items: stretch;
   margin-top: 27.5px;
   margin-bottom: 45px;
@@ -61,7 +65,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 5%;
-  width: 80%;
+  width: 55%;
 }
 
 @media screen and (max-width: 1000px) {
@@ -93,14 +97,15 @@
 .interest-title {
   font-size: 1.5em;
   font-weight: bold;
+  margin: 15px 0 30px;
 }
 
 .interest-desc {
-  font-size: 1.1em;
+  font-size: 1.08em;
 }
 
 .alternative-links {
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 .alternative-links-heading {

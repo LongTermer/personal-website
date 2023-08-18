@@ -6,11 +6,15 @@
   background-color: #fff;
 }
 
+.about-img {
+  margin-top: 50px;
+}
+
 .about-heading {
   color: #333333;
   font-weight: bold;
   margin-bottom: 20px;
-  margin-top: 126px;
+  margin-top: 50px;
   font-size: 2.5em;
 }
 
@@ -20,12 +24,12 @@
   padding: 0;
   margin: 0;
   background-color: #2e2e33;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 .about-me {
   text-align: center;
-  width: 40%;
+  width: 55%;
   font-weight: 400;
   font-size: 1.2em;
   line-height: 1.175em;
@@ -33,7 +37,7 @@
 
 @media screen and (max-width: 800px) {
   .about-me {
-    width: 60%;
+    width: 80%;
     font-size: 1em;
   }
 

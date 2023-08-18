@@ -3,15 +3,17 @@ import ProjectCard from "./ProjectCard";
 import "./projects.css";
 import Skills from "../Skills/Skills";
 import personalProjects from "../../assets/personal_projects.png";
+import openSourceContributions from "../../assets/open_source_contributions.png";
 import scaleroad from "../../assets/scaleroad.png";
 import avix from "../../assets/avix.png";
 import longterm from "../../assets/longterm.png";
 import majr from "../../assets/majr.png";
 import audits from "../../assets/audits.png";
+import tokenflow from "../../assets/tokenflow.png";
 
 const Projects = () => (
   <div className="selected-projects" id="portfolio">
-    <h1 className="portfolio-title selected-title">PRIOR EXPERIENCE</h1>
+    <h1 className="portfolio-title selected-title">EXPERIENCE</h1>
     <div className="border-line portfolio-border-line" />
     <div className="my-projects">
       <ProjectCard
@@ -40,6 +42,23 @@ const Projects = () => (
         }
       />
       <ProjectCard
+        img={openSourceContributions}
+        title={"Open Source Contributions"}
+        info={
+          <span>
+            I've actively enhanced the functionality and user experience of
+            various <strong>open-source web3 protocols and dApps,</strong>{" "}
+            reflecting my dedication to the decentralized web evolution.
+          </span>
+        }
+        info2={
+          <span>
+            Some notable examples include{" "}
+            <strong>MetaMask, Aave and Uniswap v3.</strong>
+          </span>
+        }
+      />
+      <ProjectCard
         img={scaleroad}
         title={"ScaleRoad LLC"}
         info={
@@ -61,8 +80,7 @@ const Projects = () => (
         info2={
           <span>
             <strong>I've worked on building custom UI elements</strong> and
-            integrating complex subscription and usage-based{" "}
-            <strong>payment methods.</strong>
+            integrating complex subscription and usage-based payments.
           </span>
         }
       />
@@ -80,7 +98,7 @@ const Projects = () => (
           <span>
             <strong>I've built smart contracts for the entire protocol</strong>{" "}
             and helped with integrating Chainlink's{" "}
-            <strong>on-chain price oracles</strong> with them.
+            <strong>on-chain price oracles.</strong>
           </span>
         }
       />
@@ -115,25 +133,24 @@ const Projects = () => (
         info={
           <span>
             <a
-              href="https://get.majr.io"
+              href="https://majr.io"
               target="_blank"
               rel="noopener noreferrer"
               className="bold project-card-link"
             >
               MAJR
             </a>{" "}
-            is a <strong>web3 media company</strong> focused on the video
-            content curation and community{" "}
+            is a <strong>web3 media company</strong> focused on the creator
+            memberships and community{" "}
             <strong>digital asset accumulation.</strong>{" "}
           </span>
         }
         info2={
           <span>
-            I've worked on{" "}
             <strong>
-              creating tokens, NFTs, staking, DAO governance and other
+              I've built the MAJR DAO smart contract system from the ground up,
             </strong>{" "}
-            smart contracts, as well as the complex web3 integrations.
+            as well as the contracts enabling NFT minting and staking.
           </span>
         }
       />
@@ -151,8 +168,9 @@ const Projects = () => (
                 rel="noopener noreferrer"
                 className="bold project-card-link"
               >
-                Hacken,
+                Hacken
               </a>
+              ,
             </strong>{" "}
             a leading smart contract security auditor.
           </span>
@@ -180,6 +198,32 @@ const Projects = () => (
               audit 2
             </a>{" "}
             for more details.
+          </span>
+        }
+      />
+      <ProjectCard
+        img={tokenflow}
+        title={"TokenFlow"}
+        info={
+          <span>
+            <strong>
+              <a
+                href="https://tokenflow.ai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bold project-card-link"
+              >
+                TokenFlow
+              </a>
+            </strong>{" "}
+            is a <strong>premier smart contract development agency</strong>{" "}
+            specialized in building custom-made solutions for web3 clients.
+          </span>
+        }
+        info2={
+          <span>
+            I'm <strong>responsible for prompt project deliveries</strong> and{" "}
+            <strong>leading the in-house engineering team.</strong>
           </span>
         }
       />

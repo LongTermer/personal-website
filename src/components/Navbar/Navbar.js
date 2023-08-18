@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import EmailIcon from "@material-ui/icons/Email";
+import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import TelegramIcon from "@material-ui/icons/Telegram";
+import EmailIcon from "@material-ui/icons/Email";
 import CustomButton from "../Layout/CustomButton/CustomButton";
 import pfp from "../../assets/pfp.png";
 
@@ -24,18 +26,18 @@ const Navbar = () => (
       <ul className="nav-list">
         <li className="nav-item">
           <a
-            href="mailto:mihajlomaksa9@gmail.com"
+            href="https://twitter.com/MihailoMaksa"
             className="email-link navbar-icon-link"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <EmailIcon />
+            <TwitterIcon />
           </a>
         </li>
         <li className="nav-item">
           <a
-            href="https://www.linkedin.com/in/mihailomaksa"
-            className="social-link navbar-icon-link"
+            href="https://linkedin.com/in/mihailomaksa"
+            className="email-link navbar-icon-link"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -50,6 +52,26 @@ const Navbar = () => (
             rel="noopener noreferrer"
           >
             <GitHubIcon />
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="https://t.me/MihailoMaksa"
+            className="social-link navbar-icon-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <TelegramIcon />
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="mailto:mihajlomaksa9@gmail.com"
+            className="email-link navbar-icon-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <EmailIcon />
           </a>
         </li>
         <li className="nav-item">

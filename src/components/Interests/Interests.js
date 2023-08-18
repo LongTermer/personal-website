@@ -45,8 +45,8 @@ const Interests = () => {
 
   return (
     <div className="interests">
-      <h1 className="interests-heading">MY INTERESTS</h1>
-      <div className="border-line" />
+      <h1 className="interests-heading">INTERESTS</h1>
+      <div className="border-line interests-border-line" />
       <div className="interests-container">
         <Interest
           img={web3}
@@ -73,9 +73,7 @@ const Interests = () => {
           interestName={"Investing"}
           interestDesc={
             <span>
-              I am a firm believer in the power of{" "}
-              <strong>compound interest</strong> and consider it one of the
-              greatest wonders of the world. I made my{" "}
+              I made my{" "}
               <strong>
                 first investment in Ether during the bear market of 2018
               </strong>{" "}
@@ -119,13 +117,13 @@ const Interests = () => {
             <span>
               I am fully committed to maintaining a healthy lifestyle through{" "}
               <strong>daily exercise</strong> and{" "}
-              <strong>a well-balanced, whole-foods based diet.</strong> I
-              understand the positive impact that this has on reducing my stress
-              levels, <strong>increasing productivity,</strong> and promoting a
-              sense of mental and physical balance.
+              <strong>a well-balanced diet.</strong> I especially appreciate the
+              positive impact that this has on{" "}
+              <strong>reducing my stress levels</strong> and{" "}
+              <strong>increasing my productivity.</strong>
               <br /> <br />I believe that taking care of oneself through fitness
-              and nutrition is essential for achieving personal and professional
-              goals, and I make it a priority to{" "}
+              and nutrition is essential for achieving professional goals, and I
+              make it a priority to{" "}
               <strong>
                 maintain these habits as a part of my daily routine.
               </strong>
@@ -137,7 +135,7 @@ const Interests = () => {
       <CustomButton
         type="button"
         style={{
-          marginTop: isMobile ? "435px" : "96px",
+          marginTop: isMobile ? "435px" : "91px",
           width: "175px",
         }}
         className="resume-btn-bottom"
