@@ -75,7 +75,11 @@ const Navbar = () => (
           </a>
         </li>
         <li className="nav-item">
-          <CustomButton type="button" className="resume-btn-navbar">
+          <CustomButton
+            type="button"
+            className="resume-btn-navbar"
+            onClick={() => window.open("/Resume.pdf", "_blank")}
+          >
             <a
               target="_blank"
               rel="noopener noreferrer"

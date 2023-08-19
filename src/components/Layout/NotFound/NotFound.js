@@ -1,10 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from "react-router-dom";
 import './notfound.css'
 import NotFoundImg from '../../../assets/404.svg'
 import CustomButton from '../CustomButton/CustomButton'
 
 const NotFound = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="container">
       <div className="not-found">
@@ -12,19 +14,19 @@ const NotFound = () => {
 
         <div className="content-404">
           <h1 className="title-404 bold text-center">Oops!</h1>
-          <p className={'desc-404 text-muted text-center'}>
+          <p className={"desc-404 text-muted text-center"}>
             Unfortunately, the page you requested does not exist.
           </p>
 
-          <CustomButton>
-            <Link to="/" style={{ color: '#fff', fontWeight: 'bold' }}>
+          <CustomButton onClick={() => navigate("/")}>
+            <Link to="/" style={{ color: "#fff", fontWeight: "bold" }}>
               Home
             </Link>
           </CustomButton>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default NotFound

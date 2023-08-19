@@ -1,7 +1,6 @@
 .custom-button {
-  width: 175px;
+  width: 145px !important;
   margin: 0;
-  /* width: auto; */
   letter-spacing: 0.5px;
   line-height: 35px;
   padding: 0 15px 0 15px;
@@ -56,3 +55,31 @@
   color: white;
   border: none;
 }
+
+.outline-button {
+  background-color: #fff;
+  color: #f7931a;
+  margin-right: 30px;
+  width: 160px !important;
+}
+
+.outline-button:hover {
+  background-color: #f7931a;
+  color: #fff;
+  border: 2px solid #f7931a !important;
+}
+
+@media screen and (max-width: 800px) {
+  .custom-button {
+    width: 99px !important;
+    height: 45px !important;
+    font-size: 0.9em !important;
+  }
+
+  .outline-button {
+    width: 111px !important;
+    height: 45px !important;
+    font-size: 0.9em !important;
+  }
+}
+

@@ -173,7 +173,7 @@ polygon {
 
 .job-title {
   font-size: 1.35em;
-  margin: 20px 0 50px;
+  margin: 20px 0 54px;
 }
 
 .expand-more {
@@ -188,4 +188,11 @@ polygon {
 .expand-more:hover {
   /* background-color: #2f3e4e; */
   color: rgb(118, 167, 5);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }

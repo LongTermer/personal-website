@@ -3,6 +3,7 @@ import "./introanimation.css";
 import "./particles.css";
 import "./animation.css";
 import CustomButton from "../CustomButton/CustomButton";
+import { PopupButton } from "react-calendly";
 
 const IntroAnimation = () => (
   <div className="intro-animation" id="intro">
@@ -29,21 +30,29 @@ const IntroAnimation = () => (
           Hi, I'm <span style={{ color: "#f7931a" }}>Mihailo!</span>
         </h1>
         <p className="job-title">A Senior Smart Contract Engineer</p>
-        <CustomButton
-          type="button"
-          style={{
-            width: "175px",
-          }}
-        >
-          <a
-            href="/Resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-link"
+
+        <div className="button-container">
+          <PopupButton
+            url="https://calendly.com/mihailo-maksa/30min"
+            rootElement={document.getElementById("root")}
+            type="button"
+            className="custom-button outline-button"
+            text="Let's Talk"
+          />
+          <CustomButton
+            type="button"
+            onClick={() => window.open("/Resume.pdf", "_blank")}
           >
-            Resume
-          </a>
-        </CustomButton>
+            <a
+              href="/Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-link"
+            >
+              Resume
+            </a>
+          </CustomButton>
+        </div>
       </div>
 
       <div className="night first-animation">

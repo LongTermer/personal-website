@@ -6,6 +6,7 @@ import renewable from "../../assets/renewable.jpg";
 import gym from "../../assets/gym.png";
 import CustomButton from "../Layout/CustomButton/CustomButton";
 import { useMediaQuery } from "react-responsive";
+import { PopupButton } from "react-calendly";
 
 const Interests = () => {
   const [altLinks, setAltLinks] = useState([
@@ -33,7 +34,7 @@ const Interests = () => {
         alt={interestName}
         width={150}
         height={140}
-        className="skill-image"
+        className="interest-image"
         style={{
           borderRadius: radius && "5%",
         }}
@@ -132,41 +133,53 @@ const Interests = () => {
         />
       </div>
 
-      <CustomButton
-        type="button"
+      <div
         style={{
-          marginTop: isMobile ? "435px" : "91px",
-          width: "175px",
+          marginTop: isMobile ? "405px" : "91px",
         }}
-        className="resume-btn-bottom"
       >
-        <a
-          href="/Resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn-link"
-        >
-          Resume
-        </a>
-      </CustomButton>
+        <div className="button-container bottom-button-container">
+          <PopupButton
+            url="https://calendly.com/mihailo-maksa/30min"
+            rootElement={document.getElementById("root")}
+            type="button"
+            className="custom-button outline-button"
+            text="Let's Talk"
+          />
+          <CustomButton
+            type="button"
+            className="resume-btn-bottom"
+            onClick={() => window.open("/Resume.pdf", "_blank")}
+          >
+            <a
+              href="/Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-link"
+            >
+              Resume
+            </a>
+          </CustomButton>
+        </div>
 
-      <div className="alternative-links">
-        <h2 className="alternative-links-heading bold">
-          Alternative Website Links:
-        </h2>
-        <div className="alternative-links-container">
-          {altLinks.map((link) => (
-            <span key={link}>
-              <a
-                href={link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bold project-card-link"
-              >
-                {link.split("://")[1]}
-              </a>
-            </span>
-          ))}
+        <div className="alternative-links">
+          <h2 className="alternative-links-heading bold">
+            Alternative Website Links:
+          </h2>
+          <div className="alternative-links-container">
+            {altLinks.map((link) => (
+              <span key={link}>
+                <a
+                  href={link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bold project-card-link"
+                >
+                  {link.split("://")[1]}
+                </a>
+              </span>
+            ))}
+          </div>
         </div>
       </div>
     </div>
