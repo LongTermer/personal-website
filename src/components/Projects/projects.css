@@ -25,7 +25,7 @@
 .my-projects {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 5%;
+  grid-gap: 3.5%;
   margin-top: 10px;
 }
 
@@ -37,7 +37,11 @@
   }
 
   .portfolio-title {
-    margin-top: 123px;
+    margin-top: 95px;
+  }
+
+  .project-image {
+    margin-bottom: -3px !important;
   }
 }
 
@@ -76,7 +80,6 @@
   height: 222px;
   width: 348px;
   position: relative;
-  margin-bottom: 30px;
   border-radius: 4%;
 }
 

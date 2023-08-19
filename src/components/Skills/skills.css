@@ -4,8 +4,15 @@
   justify-content: center;
   flex-direction: column;
   background-color: #fff;
-  margin-top: 200px;
+  margin-top: 134px;
   margin-bottom: -11px;
+}
+
+@media screen and (max-width: 800px) {
+  .skills {
+    margin-top: 141px !important;
+    margin-bottom: -115px !important;
+  }
 }
 
 .skills-heading {
@@ -82,10 +89,14 @@
   .skills-heading {
     margin-top: 255px !important;
   }
+
+  .skills-title {
+    margin-bottom: 35px;
+  }
 }
 
 .skill-title {
   font-size: 1.55em;
   font-weight: bold;
-  margin-bottom: 35px;
+  margin-bottom: 44px;
 }

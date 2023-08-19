@@ -156,7 +156,7 @@ const Projects = () => (
       />
       <ProjectCard
         img={audits}
-        title={"Smart Contract Security Audits"}
+        title={"Smart Contract Audits"}
         info={
           <span>
             The smart contracts that I've developed were{" "}
