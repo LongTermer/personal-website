@@ -1,5 +1,5 @@
 .custom-button {
-  width: 145px !important;
+  width: 145px;
   margin: 0;
   letter-spacing: 0.5px;
   line-height: 35px;
@@ -13,11 +13,12 @@
   height: 37.5px;
   transition: 0.5s;
   outline: none;
-  border-radius: 5px;
+  border-radius: 10px;
   font-weight: bold;
   width: 140px;
   height: 60px;
   font-size: 1.5em;
+  /* box-shadow: #f7931a 0px 3px 12px; */
 }
 
 .custom-button:hover {
@@ -60,7 +61,7 @@
   background-color: #fff;
   color: #f7931a;
   margin-right: 30px;
-  width: 160px !important;
+  width: 160px;
 }
 
 .outline-button:hover {
@@ -83,3 +84,7 @@
   }
 }
 
+.transparent-outline-button {
+  background-color: transparent;
+  color: #f7931a;
+}

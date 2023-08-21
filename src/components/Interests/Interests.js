@@ -151,14 +151,7 @@ const Interests = () => {
             className="resume-btn-bottom"
             onClick={() => window.open("/Resume.pdf", "_blank")}
           >
-            <a
-              href="/Resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-link"
-            >
-              Resume
-            </a>
+            Resume
           </CustomButton>
         </div>
 

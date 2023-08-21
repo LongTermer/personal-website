@@ -14,15 +14,11 @@ const NotFound = () => {
 
         <div className="content-404">
           <h1 className="title-404 bold text-center">Oops!</h1>
-          <p className={"desc-404 text-muted text-center"}>
+          <p className="desc-404 text-muted text-center">
             Unfortunately, the page you requested does not exist.
           </p>
 
-          <CustomButton onClick={() => navigate("/")}>
-            <Link to="/" style={{ color: "#fff", fontWeight: "bold" }}>
-              Home
-            </Link>
-          </CustomButton>
+          <CustomButton onClick={() => navigate("/")}>Home</CustomButton>
         </div>
       </div>
     </div>

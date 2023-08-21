@@ -36,21 +36,14 @@ const IntroAnimation = () => (
             url="https://calendly.com/mihailo-maksa/30min"
             rootElement={document.getElementById("root")}
             type="button"
-            className="custom-button outline-button"
+            className="custom-button outline-button transparent-outline-button"
             text="Let's Talk"
           />
           <CustomButton
             type="button"
             onClick={() => window.open("/Resume.pdf", "_blank")}
           >
-            <a
-              href="/Resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-link"
-            >
-              Resume
-            </a>
+            Resume
           </CustomButton>
         </div>
       </div>
