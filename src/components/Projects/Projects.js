@@ -46,9 +46,9 @@ const Projects = () => (
         title={"Open Source Contributions"}
         info={
           <span>
-            I've actively enhanced the functionality and user experience of
-            various <strong>open-source web3 protocols and dApps,</strong>{" "}
-            reflecting my dedication to the decentralized web evolution.
+            I actively enhanced the functionality and user experience of various{" "}
+            <strong>open-source web3 protocols and dApps,</strong> reflecting my
+            dedication to the decentralized web evolution.
           </span>
         }
         info2={
@@ -79,7 +79,7 @@ const Projects = () => (
         }
         info2={
           <span>
-            <strong>I've worked on building custom UI elements</strong> and
+            <strong>I worked on building custom UI elements</strong> and
             integrating complex subscription and usage-based payments.
           </span>
         }
@@ -96,8 +96,8 @@ const Projects = () => (
         }
         info2={
           <span>
-            <strong>I've built smart contracts for the entire protocol</strong>{" "}
-            and helped with integrating Chainlink's{" "}
+            <strong>I built smart contracts for the entire protocol</strong> and
+            helped with integrating Chainlink's{" "}
             <strong>on-chain price oracles.</strong>
           </span>
         }
@@ -121,8 +121,8 @@ const Projects = () => (
         }
         info2={
           <span>
-            <strong>I've built smart contracts for the entire protocol</strong>{" "}
-            and made significant contributions to its{" "}
+            <strong>I built smart contracts for the entire protocol</strong> and
+            made significant contributions to its{" "}
             <strong>frontend dashboard</strong> as well.
           </span>
         }
@@ -148,7 +148,7 @@ const Projects = () => (
         info2={
           <span>
             <strong>
-              I've built the MAJR DAO smart contract system from the ground up,
+              I built the MAJR DAO smart contract system from the ground up,
             </strong>{" "}
             as well as the contracts enabling NFT minting and staking.
           </span>
@@ -159,7 +159,7 @@ const Projects = () => (
         title={"Smart Contract Audits"}
         info={
           <span>
-            The smart contracts that I've developed were{" "}
+            The smart contracts that I developed were{" "}
             <strong>
               audited multiple times by{" "}
               <a

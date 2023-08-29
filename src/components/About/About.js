@@ -21,17 +21,16 @@ const About = () => (
         </strong>{" "}
         I bring an in-depth understanding of{" "}
         <strong>
-          DeFi, NFTs, DAOs, dApps, EVM, crosschain bridges, layer 2's like
-          optimistic and zero knowledge (ZK) rollups and the wider web3
-          ecosystem.
+          DeFi, NFTs, DAOs, dApps, blockchain oracles, EVM, crosschain bridges,
+          layer 2's like optimistic and zero knowledge (ZK) rollups and the
+          wider web3 ecosystem.
         </strong>{" "}
-        With a specialty in
-        <strong>Solidity</strong> smart contract development, I've contributed
-        to numerous web3 projects since 2018.
+        With a specialty in <strong>Solidity</strong> smart contract
+        development, I've contributed to numerous web3 projects since 2018.
       </p>
 
       <p>
-        Combining my technical proficiency with a native-level English fluency,
+        Combining my technical proficiency with a native-level English fluency,{" "}
         <strong>
           I am a skilled communicator, adept at remote collaboration,
         </strong>{" "}
