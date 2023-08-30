@@ -17,13 +17,13 @@ const About = () => (
       <p>
         As a seasoned{" "}
         <strong>
-          smart contract engineer with over four years of experience,
+          smart contract engineer with over 4 years of experience,
         </strong>{" "}
         I bring an in-depth understanding of{" "}
         <strong>
           DeFi, NFTs, DAOs, dApps, blockchain oracles, EVM, crosschain bridges,
-          layer 2's like optimistic and zero knowledge (ZK) rollups and the
-          wider web3 ecosystem.
+          layer 2 scaling solutions like optimistic and zero knowledge (ZK)
+          rollups and the wider web3 ecosystem.
         </strong>{" "}
         With a specialty in <strong>Solidity</strong> smart contract
         development, I've contributed to numerous web3 projects since 2018.
