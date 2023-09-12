@@ -222,8 +222,11 @@ const Projects = () => (
         }
         info2={
           <span>
-            I'm <strong>responsible for prompt project deliveries</strong> and{" "}
-            <strong>leading the in-house engineering team.</strong>
+            I'm leading the{" "}
+            <strong>
+              design and development of complex smart contract systems,
+            </strong>{" "}
+            ensuring best practices and security.
           </span>
         }
       />
