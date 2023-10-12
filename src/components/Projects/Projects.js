@@ -16,12 +16,12 @@ const Projects = () => (
     <h1 className="portfolio-title selected-title">EXPERIENCE</h1>
     <div className="border-line portfolio-border-line" />
     <div className="my-projects">
-      <ProjectCard
+      {/*<ProjectCard
         img={personalProjects}
         title={"Personal Projects"}
         info={
           <span>
-            <strong>My passion for building</strong> and experimenting with web3
+            My passion for building and experimenting with web3
             technology resulted in over 100 personal projects, as shown on my{" "}
             <a
               href="https://github.com/mihailo-maksa"
@@ -37,120 +37,116 @@ const Projects = () => (
           <span>
             My projects range from small experiments to full-fledged
             applications, and all of them use{" "}
-            <strong>the latest web3 and related technologies.</strong>
+            the latest web3 and related technologies.
           </span>
         }
-      />
-      <ProjectCard
+      /> */}
+      {/* <ProjectCard
         img={openSourceContributions}
         title={"Open Source Contributions"}
         info={
           <span>
             I actively enhanced the functionality and user experience of various{" "}
-            <strong>open-source web3 protocols and dApps,</strong> reflecting my
+            open-source web3 protocols and dApps, reflecting my
             dedication to the decentralized web evolution.
           </span>
         }
         info2={
           <span>
             Some notable examples include{" "}
-            <strong>MetaMask, Aave and Uniswap v3.</strong>
+            MetaMask, Aave and Uniswap v3.
           </span>
         }
-      />
+      /> */}
       <ProjectCard
         img={scaleroad}
         title={"ScaleRoad LLC"}
+        workTime={"(Jul 2018 - Mar 2019)"}
         info={
           <span>
-            <strong>
-              <a
-                href="https://scaleroad.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bold project-card-link"
-              >
-                ScaleRoad
-              </a>{" "}
-              is a SaaS platform for tracking and managing investment research
-            </strong>{" "}
-            in a structured and organized way.
+            <a
+              href="https://scaleroad.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-card-link"
+            >
+              ScaleRoad
+            </a>{" "}
+            is a SaaS platform for tracking and managing investment research in
+            a structured and organized way.
           </span>
         }
         info2={
           <span>
-            <strong>I worked on building custom UI elements</strong> and
-            integrating complex subscription and usage-based payments.
+            I worked on building custom UI elements and integrating complex
+            subscription and usage-based payments.
           </span>
         }
       />
       <ProjectCard
         img={avix}
         title={"Avix Finance"}
+        workTime={"(Mar 2019 - Dec 2020)"}
         info={
           <span>
-            Avix Finance was a permissionless{" "}
-            <strong>tokenized volatility DeFi protocol</strong> designed to
-            track the price of VIX on-chain.
+            Avix Finance was a permissionless tokenized volatility DeFi protocol
+            designed to track the price of VIX on-chain.
           </span>
         }
         info2={
           <span>
-            <strong>I built smart contracts for the entire protocol</strong> and
-            helped with integrating Chainlink's{" "}
-            <strong>on-chain price oracles.</strong>
+            I built smart contracts for the entire protocol and helped with
+            integrating Chainlink's on-chain price oracles.
           </span>
         }
       />
       <ProjectCard
         img={longterm}
         title={"LongTerm Finance"}
+        workTime={"(Dec 2020 - Jun 2022)"}
         info={
           <span>
             <a
               href="https://long-term.finance"
               target="_blank"
               rel="noopener noreferrer"
-              className="bold project-card-link"
+              className="project-card-link"
             >
               LongTerm Finance
             </a>{" "}
-            is a <strong>tokenized index fund protocol</strong> designed to
-            track the market capitalization of the entire altcoin market.
+            is a tokenized index fund protocol designed to track the market
+            capitalization of the entire altcoin market.
           </span>
         }
         info2={
           <span>
-            <strong>I built smart contracts for the entire protocol</strong> and
-            made significant contributions to its{" "}
-            <strong>frontend dashboard</strong> as well.
+            I built smart contracts for the entire protocol and made significant
+            contributions to its frontend dashboard as well.
           </span>
         }
       />
       <ProjectCard
         img={majr}
         title={"MAJR, Inc."}
+        workTime={"(Jun 2022 - May 2023)"}
         info={
           <span>
             <a
               href="https://majr.io"
               target="_blank"
               rel="noopener noreferrer"
-              className="bold project-card-link"
+              className="project-card-link"
             >
               MAJR
             </a>{" "}
-            is a <strong>web3 media company</strong> focused on the creator
-            memberships and community{" "}
-            <strong>digital asset accumulation.</strong>{" "}
+            is a web3 media company focused on the creator memberships and
+            community digital asset accumulation.{" "}
           </span>
         }
         info2={
           <span>
-            <strong>
-              I built the MAJR DAO smart contract system from the ground up,
-            </strong>{" "}
-            as well as the contracts enabling NFT minting and staking.
+            I built the MAJR DAO smart contract system from the ground up, as
+            well as the contracts enabling NFT minting and staking.
           </span>
         }
       />
@@ -159,43 +155,48 @@ const Projects = () => (
         title={"Smart Contract Audits"}
         info={
           <span>
-            The smart contracts that I developed were{" "}
-            <strong>
-              audited multiple times by{" "}
-              <a
-                href="https://hacken.io"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bold project-card-link"
-              >
-                Hacken
-              </a>
-              ,
-            </strong>{" "}
-            a leading smart contract security auditor.
+            Apart from my commitment to rigorous testing, smart contracts I've
+            developed have undergone multiple audits by{" "}
+            <a
+              href="https://hacken.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-card-link"
+            >
+              Hacken
+            </a>
+            , a leading smart contract security auditor.
           </span>
         }
         info2={
           <span>
-            Each audit has resulted in{" "}
-            <strong>exceptional scores and no critical bugs were found.</strong>{" "}
-            See{" "}
+            Each audit has resulted in exceptional scores, with no critical bugs
+            or vulnerabilities identified. See{" "}
             <a
               href="https://hacken.io/wp-content/uploads/2022/09/MAJR_INC_SCAudit_Report2.docx.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="bold project-card-link"
+              className="project-card-link"
             >
               audit 1
+            </a>
+            ,{" "}
+            <a
+              href="https://wp.hacken.io/wp-content/uploads/2022/09/Majr_Dao_512857947_SCAudit_Report_4.docx.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-card-link"
+            >
+              audit 2
             </a>{" "}
             and{" "}
             <a
               href="https://hacken.io/wp-content/uploads/2022/09/MAJR-INC_09-19-2022_SCAudit_Report3-1.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="bold project-card-link"
+              className="project-card-link"
             >
-              audit 2
+              audit 3
             </a>{" "}
             for more details.
           </span>
@@ -204,29 +205,25 @@ const Projects = () => (
       <ProjectCard
         img={tokenflow}
         title={"TokenFlow"}
+        workTime={"(May 2023 - Present)"}
         info={
           <span>
-            <strong>
-              <a
-                href="https://tokenflow.ai"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bold project-card-link"
-              >
-                TokenFlow
-              </a>
-            </strong>{" "}
-            is a <strong>premier smart contract development agency</strong>{" "}
-            specialized in building custom-made solutions for web3 clients.
+            <a
+              href="https://tokenflow.ai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-card-link"
+            >
+              TokenFlow
+            </a>{" "}
+            is a premier smart contract development agency specialized in
+            building custom-made solutions for web3 clients.
           </span>
         }
         info2={
           <span>
-            I'm leading the{" "}
-            <strong>
-              design and development of complex smart contract systems,
-            </strong>{" "}
-            ensuring best practices and security.
+            I'm leading the design and development of complex smart contract
+            systems, ensuring best practices and security.
           </span>
         }
       />

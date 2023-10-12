@@ -4,13 +4,13 @@
   justify-content: center;
   flex-direction: column;
   background-color: #fff;
-  margin-top: 134px;
+  margin-top: 47px;
   margin-bottom: -11px;
 }
 
 @media screen and (max-width: 800px) {
   .skills {
-    margin-top: 141px !important;
+    margin-top: -55px !important;
     margin-bottom: -115px !important;
   }
 }
