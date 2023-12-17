@@ -15,7 +15,7 @@ const About = () => (
     <div className="border-line" />
     <div className="about-me">
       <p>
-        As a seasoned <strong>Solidity smart contract engineer</strong> with
+        As a seasoned <strong>Solidity Smart Contract Engineer</strong> with
         over 4 years of experience, I bring an in-depth understanding of DeFi,
         NFTs, DAOs, dApps, blockchain oracles, EVM, cross-chain bridges, layer 2
         scaling solutions like optimistic and zero knowledge (ZK) rollups and

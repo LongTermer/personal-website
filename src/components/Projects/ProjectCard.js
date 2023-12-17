@@ -2,7 +2,15 @@ import React from "react";
 import "./projects.css";
 import { useMediaQuery } from "react-responsive";
 
-const ProjectCard = ({ img, title, info, info2, workTime }) => {
+const ProjectCard = ({
+  img,
+  title,
+  jobTitle,
+  info,
+  info2,
+  workTime,
+  customClassName,
+}) => {
   const isMobile = useMediaQuery({ query: "(max-width: 400px)" });
 
   return (
@@ -20,10 +28,11 @@ const ProjectCard = ({ img, title, info, info2, workTime }) => {
         />
       </div>
       <div
-        className="project-container"
+        className={`project-container ${customClassName}`}
         style={{ border: "1px solid #000", padding: "10px" }}
       >
         <div className="project-title">{title}</div>
+        <div className="project-job-title">{jobTitle}</div>
         <span className="work-times">{workTime}</span>
         <p className="project-info">{info}</p>
         <p className="project-info-2">{info2}</p>

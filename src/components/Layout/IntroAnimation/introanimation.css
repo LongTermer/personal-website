@@ -171,9 +171,20 @@ polygon {
   margin-bottom: 0;
 }
 
+.mihailo-label {
+  color: #f7931a;
+}
+
 .job-title {
   font-size: 1.35em;
   margin: 20px 0 54px;
+  width: 120% !important;
+}
+
+@media screen and (max-width: 850px) {
+  .job-title {
+    width: 90% !important;
+  }
 }
 
 .expand-more {

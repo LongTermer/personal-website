@@ -34,8 +34,8 @@ const Skills = () => {
       <div className="border-line skills-border-line" />
       <div className="skills-container">
         <Skill img={solidity} skillName={"Solidity"} />
-        <Skill img={hardhat} skillName={"Hardhat"} />
         <Skill img={foundry} skillName={"Foundry"} />
+        <Skill img={hardhat} skillName={"Hardhat"} />
         <Skill img={ethers} skillName={"Ethers.js"} />
         <Skill img={typescript} skillName={"TypeScript"} radius />
         <Skill img={javascript} skillName={"JavaScript"} radius />

@@ -61,6 +61,7 @@ const Projects = () => (
       <ProjectCard
         img={scaleroad}
         title={"ScaleRoad LLC"}
+        jobTitle={"Full Stack Software Engineer"}
         workTime={"(Jul 2018 - Mar 2019)"}
         info={
           <span>
@@ -86,6 +87,7 @@ const Projects = () => (
       <ProjectCard
         img={avix}
         title={"Avix Finance"}
+        jobTitle={"Smart Contract Engineer"}
         workTime={"(Mar 2019 - Dec 2020)"}
         info={
           <span>
@@ -103,6 +105,7 @@ const Projects = () => (
       <ProjectCard
         img={longterm}
         title={"LongTerm Finance"}
+        jobTitle={"Smart Contract Engineer"}
         workTime={"(Dec 2020 - Jun 2022)"}
         info={
           <span>
@@ -128,6 +131,7 @@ const Projects = () => (
       <ProjectCard
         img={majr}
         title={"MAJR, Inc."}
+        jobTitle={"Smart Contract Engineer"}
         workTime={"(Jun 2022 - May 2023)"}
         info={
           <span>
@@ -153,25 +157,27 @@ const Projects = () => (
       <ProjectCard
         img={audits}
         title={"Smart Contract Audits"}
+        customClassName={"audits-card"}
         info={
           <span>
-            Apart from my commitment to rigorous testing, smart contracts I've
-            developed have undergone multiple audits by{" "}
+            In addition to my dedication to thorough testing, smart contracts
+            I've developed have undergone multiple audits by{" "}
             <a
               href="https://hacken.io"
               target="_blank"
               rel="noopener noreferrer"
               className="project-card-link"
             >
-              Hacken
+              Hacken{" "}
             </a>
-            , a leading smart contract security auditor.
+            and other leading smart contract security auditors.
           </span>
         }
         info2={
           <span>
-            Each audit has resulted in exceptional scores, with no critical bugs
-            or vulnerabilities identified. See{" "}
+            Each of these audits has resulted in exceptional scores
+            (consistently above 9 out of 10), with no critical bugs, exploits or
+            vulnerabilities identified. See{" "}
             <a
               href="https://hacken.io/wp-content/uploads/2022/09/MAJR_INC_SCAudit_Report2.docx.pdf"
               target="_blank"
@@ -205,6 +211,7 @@ const Projects = () => (
       <ProjectCard
         img={tokenflow}
         title={"TokenFlow"}
+        jobTitle={"Smart Contract Engineer"}
         workTime={"(May 2023 - Present)"}
         info={
           <span>

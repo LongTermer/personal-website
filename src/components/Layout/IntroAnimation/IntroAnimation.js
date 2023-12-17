@@ -27,9 +27,9 @@ const IntroAnimation = () => (
         }}
       >
         <h1 className="hi-mihailo-maksa">
-          Hi, I'm <span style={{ color: "#f7931a" }}>Mihailo!</span>
+          Hi, I'm <span className="mihailo-label">Mihailo!</span>
         </h1>
-        <p className="job-title">Senior Smart Contract Engineer</p>
+        <p className="job-title">Senior Solidity Smart Contract Engineer</p>
 
         <div className="button-container">
           <PopupButton
