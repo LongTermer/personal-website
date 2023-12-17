@@ -131,7 +131,7 @@ const Projects = () => (
       <ProjectCard
         img={majr}
         title={"MAJR, Inc."}
-        jobTitle={"Smart Contract Engineer"}
+        jobTitle={"Senior Smart Contract Engineer"}
         workTime={"(Jun 2022 - May 2023)"}
         info={
           <span>
@@ -211,7 +211,7 @@ const Projects = () => (
       <ProjectCard
         img={tokenflow}
         title={"TokenFlow"}
-        jobTitle={"Smart Contract Engineer"}
+        jobTitle={"Senior Smart Contract Engineer"}
         workTime={"(May 2023 - Present)"}
         info={
           <span>
