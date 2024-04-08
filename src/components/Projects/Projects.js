@@ -10,6 +10,7 @@ import longterm from "../../assets/longterm.png";
 import majr from "../../assets/majr.png";
 import audits from "../../assets/audits.png";
 import tokenflow from "../../assets/tokenflow.png";
+import intuition from "../../assets/intuition.png";
 
 const Projects = () => (
   <div className="selected-projects" id="portfolio">
@@ -154,7 +155,7 @@ const Projects = () => (
           </span>
         }
       />
-      <ProjectCard
+      {/*<ProjectCard
         img={audits}
         title={"Smart Contract Audits"}
         customClassName={"audits-card"}
@@ -207,12 +208,12 @@ const Projects = () => (
             for more details.
           </span>
         }
-      />
+      /> */}
       <ProjectCard
         img={tokenflow}
         title={"TokenFlow"}
         jobTitle={"Senior Smart Contract Engineer"}
-        workTime={"(May 2023 - Present)"}
+        workTime={"(May 2023 - December 2023)"}
         info={
           <span>
             <a
@@ -231,6 +232,33 @@ const Projects = () => (
           <span>
             I'm leading the design and development of complex smart contract
             systems, ensuring best practices and security.
+          </span>
+        }
+      />
+      <ProjectCard
+        img={intuition}
+        title={"Intuition"}
+        jobTitle={"Senior Solidity Engineer"}
+        workTime={"(January 2024 - Present)"}
+        info={
+          <span>
+            <a
+              href="https://intuition.systems"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-card-link"
+            >
+              Intuition
+            </a>{" "}
+            is the trust protocol, bridging the gap between human trust and
+            trustless systems
+          </span>
+        }
+        info2={
+          <span>
+            I'm working on building and improving smart contracts for the
+            Intuition Protocol, as well as contributing to the overall growth of
+            the Intuition ecosystem.
           </span>
         }
       />
