@@ -238,7 +238,7 @@ const Projects = () => (
       <ProjectCard
         img={intuition}
         title={"Intuition"}
-        jobTitle={"Senior Solidity Engineer"}
+        jobTitle={"Senior Smart Contract Engineer"}
         workTime={"(January 2024 - Present)"}
         info={
           <span>
@@ -250,15 +250,14 @@ const Projects = () => (
             >
               Intuition
             </a>{" "}
-            is the trust protocol, bridging the gap between human trust and
-            trustless systems
+            is empowering people to build, explore, curate, and own a communal
+            knowledge graph to more reliably navigate our exponential world.
           </span>
         }
         info2={
           <span>
-            I'm working on building and improving smart contracts for the
-            Intuition Protocol, as well as contributing to the overall growth of
-            the Intuition ecosystem.
+            I'm developing and enhancing smart contracts of the Intuition
+            Protocol and contributing to the growth of the Intuition ecosystem.
           </span>
         }
       />
