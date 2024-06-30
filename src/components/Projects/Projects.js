@@ -237,7 +237,7 @@ const Projects = () => (
       />
       <ProjectCard
         img={intuition}
-        title={"Intuition"}
+        title={"Intuition Systems, Inc."}
         jobTitle={"Senior Smart Contract Engineer"}
         workTime={"(January 2024 - Present)"}
         info={
