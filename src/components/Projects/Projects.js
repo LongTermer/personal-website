@@ -230,7 +230,7 @@ const Projects = () => (
         }
         info2={
           <span>
-            I'm leading the design and development of complex smart contract
+            I was leading the design and development of complex smart contract
             systems, ensuring best practices and security.
           </span>
         }
