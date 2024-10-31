@@ -29,7 +29,11 @@ const ProjectCard = ({
       </div>
       <div
         className={`project-container ${customClassName}`}
-        style={{ border: "1px solid #000", padding: "10px" }}
+        style={{
+          border: "1px solid #000",
+          padding: "10px",
+          height: isMobile ? "260px" : "287px",
+        }}
       >
         <div className="project-title">{title}</div>
         <div className="project-job-title">{jobTitle}</div>
