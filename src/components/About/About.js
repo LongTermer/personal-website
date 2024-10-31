@@ -15,24 +15,26 @@ const About = () => (
     <div className="border-line" />
     <div className="about-me">
       <p>
-        As a seasoned <strong>Solidity Smart Contract Engineer</strong> with
-        over 4 years of experience, I bring an in-depth understanding of DeFi,
-        NFTs, DAOs, dApps, blockchain oracles, EVM, cross-chain bridges, layer 2
-        scaling solutions like optimistic and zero knowledge (ZK) rollups and
-        the wider web3 ecosystem.
+        As a seasoned Senior Solidity Smart Contract Engineer with over five
+        years of experience, I bring a comprehensive skill set in various
+        sectors of the web3 space, including DeFi, NFTs, DAOs, dApps, blockchain
+        oracles, EVM, cross-chain bridges, layer 2 scaling solutions, liquid
+        staking and restaking (LSTs and LRTs), RWA (real world assets)
+        tokenization and more.
       </p>
 
       <p>
-        With a specialty in Solidity smart contract development, I've
-        contributed to numerous web3 and DeFi projects since 2018 and delivered
-        hundreds of production-ready smart contracts while ensuring best
-        practices and security.
+        I have contributed to numerous web3 projects since 2018, delivering
+        hundreds of production-ready smart contracts that have been
+        battle-tested through rigorous audits and deployed on various chains,
+        serving thousands of users.
       </p>
 
       <p>
-        Combining my technical proficiency with a native-level English fluency,
-        I am a skilled communicator, adept at remote collaboration, and always
-        focused on delivering results in this rapidly evolving sector.
+        My expertise is complemented by native-level English fluency, strong
+        communication skills, and a proven track record in remote collaboration.
+        I am dedicated to delivering impactful results in the rapidly evolving
+        web3 ecosystem.
       </p>
     </div>
   </div>

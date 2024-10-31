@@ -104,6 +104,7 @@
   font-size: 1.08em;
   margin-bottom: -14px;
   z-index: 1 !important;
+  text-align: left;
 }
 
 @media screen and (max-width: 800px) {

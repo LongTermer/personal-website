@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./interests.css";
 import web3 from "../../assets/web3.png";
 import investing from "../../assets/investing.png";
-import renewable from "../../assets/renewable.jpg";
+import traveling from "../../assets/traveling.png";
 import gym from "../../assets/gym.png";
 import CustomButton from "../Layout/CustomButton/CustomButton";
 import { useMediaQuery } from "react-responsive";
@@ -54,12 +54,11 @@ const Interests = () => {
           interestName={"Web3"}
           interestDesc={
             <span>
-              As a dedicated and forward-thinking individual, I am consistently
-              expanding my knowledge and understanding of the latest
-              advancements in the web3 space. <br />
-              <br /> My areas of focus include decentralized finance (DeFi) and{" "}
-              Ethereum layer 2 scaling solutions, which I continuously research
-              and study in order to stay at the forefront of the industry.
+              I am deeply committed to staying at the forefront of the web3
+              space, with a strong focus on decentralized finance (DeFi) and
+              Ethereum layer 2 scaling solutions. I actively expand my knowledge
+              and expertise in these areas, continuously researching the latest
+              industry advancements.
             </span>
           }
         />
@@ -72,31 +71,25 @@ const Interests = () => {
           interestName={"Investing"}
           interestDesc={
             <span>
-              I made my first investment in Ether during the bear market of 2018{" "}
-              and have been actively seeking out new opportunities in the crypto
-              market ever since.
-              <br /> <br />
-              Through my continued research and proven investment strategies, I
-              am dedicated to realizing the full potential of my crypto assets
-              and maximizing returns.
+              I made my first investment in BTC and ETH during the 2018 bear
+              market, and they continue to form the backbone of my portfolio.
+              Through strategic research, I actively pursue new opportunities to
+              maximize the potential and returns of my crypto investments.
             </span>
           }
         />
         <Interest
-          img={renewable}
+          img={traveling}
           style={{
-            marginTop: isMobile ? "-75px" : "0",
+            marginTop: isMobile ? "-40px" : "20px",
           }}
-          interestName={"Renewable Energy"}
+          interestName={"Traveling"}
           interestDesc={
             <span>
-              As a forward-thinking individual, I am convinced that a rapid
-              transition to renewable energy sources is crucial for humanity's
-              future prosperity. I am particularly passionate about the
-              potential of electric vehicles and solar energy.
-              <br /> <br />I am dedicated to staying informed and educated about
-              the latest developments in these industries, and actively seeking
-              out opportunities to contribute to their growth and success.
+              I’m passionate about exploring new places and cultures, which
+              broadens my perspective and inspires my work. Traveling helps me
+              connect with diverse communities and brings fresh insights to my
+              personal and professional life.
             </span>
           }
         />
@@ -105,17 +98,13 @@ const Interests = () => {
           style={{
             marginTop: isMobile ? "-70px" : "0",
           }}
-          interestName={"Workout & Nutrition"}
+          interestName={"Working Out"}
           interestDesc={
             <span>
-              I am fully committed to maintaining a healthy lifestyle through{" "}
-              daily exercise and a well-balanced diet. I especially appreciate
-              the positive impact that this has on reducing my stress levels and{" "}
-              increasing my productivity.
-              <br /> <br />I believe that taking care of oneself through fitness
-              and nutrition is essential for achieving professional goals, and I
-              make it a priority to maintain these habits as a part of my daily
-              routine.
+              I am dedicated to maintaining a healthy lifestyle through regular
+              exercise, appreciating its positive impact on my well-being,
+              stress management, and productivity. Staying active is essential
+              to my routine, helping me stay focused and perform at my best.
             </span>
           }
         />
